@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5A4CC141A3EC68200F5B928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A4CC131A3EC68200F5B928 /* AppDelegate.swift */; };
+		B5A4CC191A3EC68200F5B928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A4CC171A3EC68200F5B928 /* Main.storyboard */; };
+		B5A4CC1B1A3EC68200F5B928 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A4CC1A1A3EC68200F5B928 /* Images.xcassets */; };
+		B5A4CC1E1A3EC68200F5B928 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A4CC1C1A3EC68200F5B928 /* LaunchScreen.xib */; };
+		B5A4CC2A1A3EC68200F5B928 /* DataSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A4CC291A3EC68200F5B928 /* DataSharingTests.swift */; };
+		B5A4CC3D1A3EC69200F5B928 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A4CC3C1A3EC69200F5B928 /* InterfaceController.swift */; };
+		B5A4CC3F1A3EC69200F5B928 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A4CC3E1A3EC69200F5B928 /* NotificationController.swift */; };
+		B5A4CC411A3EC69200F5B928 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A4CC401A3EC69200F5B928 /* Images.xcassets */; };
+		B5A4CC451A3EC69200F5B928 /* DataSharing WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B5A4CC441A3EC69200F5B928 /* DataSharing WatchKit App.app */; };
+		B5A4CC4C1A3EC69200F5B928 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A4CC4B1A3EC69200F5B928 /* Interface.storyboard */; };
+		B5A4CC4E1A3EC69200F5B928 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A4CC4D1A3EC69200F5B928 /* Images.xcassets */; };
+		B5A4CC511A3EC69200F5B928 /* DataSharing WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5A4CC371A3EC69200F5B928 /* DataSharing WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5E453281A3F9804009135E5 /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E453271A3F9804009135E5 /* ItemsViewModel.swift */; };
+		B5F7098D1A40D4F900C40D38 /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E453271A3F9804009135E5 /* ItemsViewModel.swift */; };
+		B5F7098F1A40D6D600C40D38 /* ItemRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F7098E1A40D6D600C40D38 /* ItemRowController.swift */; };
+		B5F840401A3F8F8D0057DD41 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F8403F1A3F8F8D0057DD41 /* ItemsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5A4CC241A3EC68200F5B928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A4CC061A3EC68200F5B928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A4CC0D1A3EC68200F5B928;
+			remoteInfo = DataSharing;
+		};
+		B5A4CC461A3EC69200F5B928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A4CC061A3EC68200F5B928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A4CC431A3EC69200F5B928;
+			remoteInfo = "DataSharing WatchKit App";
+		};
+		B5A4CC4F1A3EC69200F5B928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A4CC061A3EC68200F5B928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A4CC361A3EC69200F5B928;
+			remoteInfo = "DataSharing WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5A4CC581A3EC69200F5B928 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5A4CC511A3EC69200F5B928 /* DataSharing WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5A4CC0E1A3EC68200F5B928 /* DataSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A4CC121A3EC68200F5B928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A4CC131A3EC68200F5B928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5A4CC181A3EC68200F5B928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5A4CC1A1A3EC68200F5B928 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5A4CC1D1A3EC68200F5B928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5A4CC231A3EC68200F5B928 /* DataSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A4CC281A3EC68200F5B928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A4CC291A3EC68200F5B928 /* DataSharingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSharingTests.swift; sourceTree = "<group>"; };
+		B5A4CC371A3EC69200F5B928 /* DataSharing WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DataSharing WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A4CC3A1A3EC69200F5B928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A4CC3B1A3EC69200F5B928 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B5A4CC3C1A3EC69200F5B928 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B5A4CC3E1A3EC69200F5B928 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B5A4CC401A3EC69200F5B928 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5A4CC441A3EC69200F5B928 /* DataSharing WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DataSharing WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A4CC4A1A3EC69200F5B928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A4CC4B1A3EC69200F5B928 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		B5A4CC4D1A3EC69200F5B928 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5A4CC591A3EC6C200F5B928 /* DataSharing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DataSharing.entitlements; sourceTree = "<group>"; };
+		B5E453271A3F9804009135E5 /* ItemsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemsViewModel.swift; path = DataSharing/ItemsViewModel.swift; sourceTree = "<group>"; };
+		B5F7098E1A40D6D600C40D38 /* ItemRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRowController.swift; sourceTree = "<group>"; };
+		B5F8403E1A3F8EF50057DD41 /* DataSharing WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "DataSharing WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		B5F8403F1A3F8F8D0057DD41 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A4CC0B1A3EC68200F5B928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A4CC201A3EC68200F5B928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A4CC341A3EC69200F5B928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5A4CC051A3EC68200F5B928 = {
+			isa = PBXGroup;
+			children = (
+				B5E453271A3F9804009135E5 /* ItemsViewModel.swift */,
+				B5A4CC101A3EC68200F5B928 /* DataSharing */,
+				B5A4CC261A3EC68200F5B928 /* DataSharingTests */,
+				B5A4CC381A3EC69200F5B928 /* DataSharing WatchKit Extension */,
+				B5A4CC481A3EC69200F5B928 /* DataSharing WatchKit App */,
+				B5A4CC0F1A3EC68200F5B928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A4CC0F1A3EC68200F5B928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC0E1A3EC68200F5B928 /* DataSharing.app */,
+				B5A4CC231A3EC68200F5B928 /* DataSharingTests.xctest */,
+				B5A4CC371A3EC69200F5B928 /* DataSharing WatchKit Extension.appex */,
+				B5A4CC441A3EC69200F5B928 /* DataSharing WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A4CC101A3EC68200F5B928 /* DataSharing */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC591A3EC6C200F5B928 /* DataSharing.entitlements */,
+				B5A4CC131A3EC68200F5B928 /* AppDelegate.swift */,
+				B5F8403F1A3F8F8D0057DD41 /* ItemsViewController.swift */,
+				B5A4CC171A3EC68200F5B928 /* Main.storyboard */,
+				B5A4CC1A1A3EC68200F5B928 /* Images.xcassets */,
+				B5A4CC1C1A3EC68200F5B928 /* LaunchScreen.xib */,
+				B5A4CC111A3EC68200F5B928 /* Supporting Files */,
+			);
+			path = DataSharing;
+			sourceTree = "<group>";
+		};
+		B5A4CC111A3EC68200F5B928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC121A3EC68200F5B928 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A4CC261A3EC68200F5B928 /* DataSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC291A3EC68200F5B928 /* DataSharingTests.swift */,
+				B5A4CC271A3EC68200F5B928 /* Supporting Files */,
+			);
+			path = DataSharingTests;
+			sourceTree = "<group>";
+		};
+		B5A4CC271A3EC68200F5B928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC281A3EC68200F5B928 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A4CC381A3EC69200F5B928 /* DataSharing WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B5F8403E1A3F8EF50057DD41 /* DataSharing WatchKit Extension.entitlements */,
+				B5A4CC3C1A3EC69200F5B928 /* InterfaceController.swift */,
+				B5F7098E1A40D6D600C40D38 /* ItemRowController.swift */,
+				B5A4CC3E1A3EC69200F5B928 /* NotificationController.swift */,
+				B5A4CC401A3EC69200F5B928 /* Images.xcassets */,
+				B5A4CC391A3EC69200F5B928 /* Supporting Files */,
+			);
+			path = "DataSharing WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B5A4CC391A3EC69200F5B928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC3A1A3EC69200F5B928 /* Info.plist */,
+				B5A4CC3B1A3EC69200F5B928 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5A4CC481A3EC69200F5B928 /* DataSharing WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC4B1A3EC69200F5B928 /* Interface.storyboard */,
+				B5A4CC4D1A3EC69200F5B928 /* Images.xcassets */,
+				B5A4CC491A3EC69200F5B928 /* Supporting Files */,
+			);
+			path = "DataSharing WatchKit App";
+			sourceTree = "<group>";
+		};
+		B5A4CC491A3EC69200F5B928 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A4CC4A1A3EC69200F5B928 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5A4CC0D1A3EC68200F5B928 /* DataSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A4CC2D1A3EC68200F5B928 /* Build configuration list for PBXNativeTarget "DataSharing" */;
+			buildPhases = (
+				B5A4CC0A1A3EC68200F5B928 /* Sources */,
+				B5A4CC0B1A3EC68200F5B928 /* Frameworks */,
+				B5A4CC0C1A3EC68200F5B928 /* Resources */,
+				B5A4CC581A3EC69200F5B928 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A4CC501A3EC69200F5B928 /* PBXTargetDependency */,
+			);
+			name = DataSharing;
+			productName = DataSharing;
+			productReference = B5A4CC0E1A3EC68200F5B928 /* DataSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A4CC221A3EC68200F5B928 /* DataSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A4CC301A3EC68200F5B928 /* Build configuration list for PBXNativeTarget "DataSharingTests" */;
+			buildPhases = (
+				B5A4CC1F1A3EC68200F5B928 /* Sources */,
+				B5A4CC201A3EC68200F5B928 /* Frameworks */,
+				B5A4CC211A3EC68200F5B928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A4CC251A3EC68200F5B928 /* PBXTargetDependency */,
+			);
+			name = DataSharingTests;
+			productName = DataSharingTests;
+			productReference = B5A4CC231A3EC68200F5B928 /* DataSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5A4CC361A3EC69200F5B928 /* DataSharing WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A4CC551A3EC69200F5B928 /* Build configuration list for PBXNativeTarget "DataSharing WatchKit Extension" */;
+			buildPhases = (
+				B5A4CC331A3EC69200F5B928 /* Sources */,
+				B5A4CC341A3EC69200F5B928 /* Frameworks */,
+				B5A4CC351A3EC69200F5B928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A4CC471A3EC69200F5B928 /* PBXTargetDependency */,
+			);
+			name = "DataSharing WatchKit Extension";
+			productName = "DataSharing WatchKit Extension";
+			productReference = B5A4CC371A3EC69200F5B928 /* DataSharing WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B5A4CC431A3EC69200F5B928 /* DataSharing WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A4CC521A3EC69200F5B928 /* Build configuration list for PBXNativeTarget "DataSharing WatchKit App" */;
+			buildPhases = (
+				B5A4CC421A3EC69200F5B928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DataSharing WatchKit App";
+			productName = "DataSharing WatchKit App";
+			productReference = B5A4CC441A3EC69200F5B928 /* DataSharing WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A4CC061A3EC68200F5B928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Konstantin Koval";
+				TargetAttributes = {
+					B5A4CC0D1A3EC68200F5B928 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = VF2L8ZYHK8;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					B5A4CC221A3EC68200F5B928 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B5A4CC0D1A3EC68200F5B928;
+					};
+					B5A4CC361A3EC69200F5B928 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = VF2L8ZYHK8;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					B5A4CC431A3EC69200F5B928 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B5A4CC091A3EC68200F5B928 /* Build configuration list for PBXProject "DataSharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5A4CC051A3EC68200F5B928;
+			productRefGroup = B5A4CC0F1A3EC68200F5B928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A4CC0D1A3EC68200F5B928 /* DataSharing */,
+				B5A4CC221A3EC68200F5B928 /* DataSharingTests */,
+				B5A4CC361A3EC69200F5B928 /* DataSharing WatchKit Extension */,
+				B5A4CC431A3EC69200F5B928 /* DataSharing WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A4CC0C1A3EC68200F5B928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A4CC191A3EC68200F5B928 /* Main.storyboard in Resources */,
+				B5A4CC1E1A3EC68200F5B928 /* LaunchScreen.xib in Resources */,
+				B5A4CC1B1A3EC68200F5B928 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A4CC211A3EC68200F5B928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A4CC351A3EC69200F5B928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A4CC411A3EC69200F5B928 /* Images.xcassets in Resources */,
+				B5A4CC451A3EC69200F5B928 /* DataSharing WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A4CC421A3EC69200F5B928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A4CC4C1A3EC69200F5B928 /* Interface.storyboard in Resources */,
+				B5A4CC4E1A3EC69200F5B928 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A4CC0A1A3EC68200F5B928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F840401A3F8F8D0057DD41 /* ItemsViewController.swift in Sources */,
+				B5A4CC141A3EC68200F5B928 /* AppDelegate.swift in Sources */,
+				B5E453281A3F9804009135E5 /* ItemsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A4CC1F1A3EC68200F5B928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A4CC2A1A3EC68200F5B928 /* DataSharingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A4CC331A3EC69200F5B928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A4CC3F1A3EC69200F5B928 /* NotificationController.swift in Sources */,
+				B5F7098F1A40D6D600C40D38 /* ItemRowController.swift in Sources */,
+				B5A4CC3D1A3EC69200F5B928 /* InterfaceController.swift in Sources */,
+				B5F7098D1A40D4F900C40D38 /* ItemsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5A4CC251A3EC68200F5B928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A4CC0D1A3EC68200F5B928 /* DataSharing */;
+			targetProxy = B5A4CC241A3EC68200F5B928 /* PBXContainerItemProxy */;
+		};
+		B5A4CC471A3EC69200F5B928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A4CC431A3EC69200F5B928 /* DataSharing WatchKit App */;
+			targetProxy = B5A4CC461A3EC69200F5B928 /* PBXContainerItemProxy */;
+		};
+		B5A4CC501A3EC69200F5B928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A4CC361A3EC69200F5B928 /* DataSharing WatchKit Extension */;
+			targetProxy = B5A4CC4F1A3EC69200F5B928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5A4CC171A3EC68200F5B928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A4CC181A3EC68200F5B928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5A4CC1C1A3EC68200F5B928 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5A4CC1D1A3EC68200F5B928 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5A4CC2B1A3EC68200F5B928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5A4CC2C1A3EC68200F5B928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A4CC2E1A3EC68200F5B928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DataSharing/DataSharing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DataSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B5A4CC2F1A3EC68200F5B928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DataSharing/DataSharing.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = DataSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B5A4CC311A3EC68200F5B928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataSharing.app/DataSharing";
+			};
+			name = Debug;
+		};
+		B5A4CC321A3EC68200F5B928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DataSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataSharing.app/DataSharing";
+			};
+			name = Release;
+		};
+		B5A4CC531A3EC69200F5B928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = DataSharing_WatchKit_Extension;
+				INFOPLIST_FILE = "DataSharing WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B5A4CC541A3EC69200F5B928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = DataSharing_WatchKit_Extension;
+				INFOPLIST_FILE = "DataSharing WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B5A4CC561A3EC69200F5B928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DataSharing WatchKit Extension/DataSharing WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DataSharing WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5A4CC571A3EC69200F5B928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DataSharing WatchKit Extension/DataSharing WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "DataSharing WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A4CC091A3EC68200F5B928 /* Build configuration list for PBXProject "DataSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A4CC2B1A3EC68200F5B928 /* Debug */,
+				B5A4CC2C1A3EC68200F5B928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A4CC2D1A3EC68200F5B928 /* Build configuration list for PBXNativeTarget "DataSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A4CC2E1A3EC68200F5B928 /* Debug */,
+				B5A4CC2F1A3EC68200F5B928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A4CC301A3EC68200F5B928 /* Build configuration list for PBXNativeTarget "DataSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A4CC311A3EC68200F5B928 /* Debug */,
+				B5A4CC321A3EC68200F5B928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A4CC521A3EC69200F5B928 /* Build configuration list for PBXNativeTarget "DataSharing WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A4CC531A3EC69200F5B928 /* Debug */,
+				B5A4CC541A3EC69200F5B928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A4CC551A3EC69200F5B928 /* Build configuration list for PBXNativeTarget "DataSharing WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A4CC561A3EC69200F5B928 /* Debug */,
+				B5A4CC571A3EC69200F5B928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A4CC061A3EC68200F5B928 /* Project object */;
+}
