@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5AE87EC1A44BDFA00A92325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE87EB1A44BDFA00A92325 /* AppDelegate.swift */; };
+		B5AE87EE1A44BDFA00A92325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE87ED1A44BDFA00A92325 /* ViewController.swift */; };
+		B5AE87F11A44BDFA00A92325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AE87EF1A44BDFA00A92325 /* Main.storyboard */; };
+		B5AE87F31A44BDFA00A92325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AE87F21A44BDFA00A92325 /* Images.xcassets */; };
+		B5AE87F61A44BDFA00A92325 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5AE87F41A44BDFA00A92325 /* LaunchScreen.xib */; };
+		B5AE88021A44BDFA00A92325 /* Time_ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE88011A44BDFA00A92325 /* Time_ColorTests.swift */; };
+		B5AE88141A44BE2000A92325 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE88131A44BE2000A92325 /* InterfaceController.swift */; };
+		B5AE88161A44BE2000A92325 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE88151A44BE2000A92325 /* GlanceController.swift */; };
+		B5AE88181A44BE2000A92325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AE88171A44BE2000A92325 /* Images.xcassets */; };
+		B5AE881C1A44BE2000A92325 /* Time Color WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B5AE881B1A44BE2000A92325 /* Time Color WatchKit App.app */; };
+		B5AE88231A44BE2000A92325 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AE88221A44BE2000A92325 /* Interface.storyboard */; };
+		B5AE88251A44BE2000A92325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AE88241A44BE2000A92325 /* Images.xcassets */; };
+		B5AE88281A44BE2000A92325 /* Time Color WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5AE880F1A44BE2000A92325 /* Time Color WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5AE87FC1A44BDFA00A92325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5AE87DE1A44BDFA00A92325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5AE87E51A44BDFA00A92325;
+			remoteInfo = "Time Color";
+		};
+		B5AE881D1A44BE2000A92325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5AE87DE1A44BDFA00A92325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5AE881A1A44BE2000A92325;
+			remoteInfo = "Time Color WatchKit App";
+		};
+		B5AE88261A44BE2000A92325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5AE87DE1A44BDFA00A92325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5AE880E1A44BE2000A92325;
+			remoteInfo = "Time Color WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5AE882F1A44BE2000A92325 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5AE88281A44BE2000A92325 /* Time Color WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5AE87E61A44BDFA00A92325 /* Time Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AE87EA1A44BDFA00A92325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AE87EB1A44BDFA00A92325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5AE87ED1A44BDFA00A92325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5AE87F01A44BDFA00A92325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5AE87F21A44BDFA00A92325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5AE87F51A44BDFA00A92325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5AE87FB1A44BDFA00A92325 /* Time ColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ColorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AE88001A44BDFA00A92325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AE88011A44BDFA00A92325 /* Time_ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ColorTests.swift; sourceTree = "<group>"; };
+		B5AE880F1A44BE2000A92325 /* Time Color WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Time Color WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AE88121A44BE2000A92325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AE88131A44BE2000A92325 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B5AE88151A44BE2000A92325 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		B5AE88171A44BE2000A92325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5AE881B1A44BE2000A92325 /* Time Color WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Color WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AE88211A44BE2000A92325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AE88221A44BE2000A92325 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		B5AE88241A44BE2000A92325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5AE87E31A44BDFA00A92325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE87F81A44BDFA00A92325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE880C1A44BE2000A92325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5AE87DD1A44BDFA00A92325 = {
+			isa = PBXGroup;
+			children = (
+				B5AE87E81A44BDFA00A92325 /* Time Color */,
+				B5AE87FE1A44BDFA00A92325 /* Time ColorTests */,
+				B5AE88101A44BE2000A92325 /* Time Color WatchKit Extension */,
+				B5AE881F1A44BE2000A92325 /* Time Color WatchKit App */,
+				B5AE87E71A44BDFA00A92325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5AE87E71A44BDFA00A92325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE87E61A44BDFA00A92325 /* Time Color.app */,
+				B5AE87FB1A44BDFA00A92325 /* Time ColorTests.xctest */,
+				B5AE880F1A44BE2000A92325 /* Time Color WatchKit Extension.appex */,
+				B5AE881B1A44BE2000A92325 /* Time Color WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5AE87E81A44BDFA00A92325 /* Time Color */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE87EB1A44BDFA00A92325 /* AppDelegate.swift */,
+				B5AE87ED1A44BDFA00A92325 /* ViewController.swift */,
+				B5AE87EF1A44BDFA00A92325 /* Main.storyboard */,
+				B5AE87F21A44BDFA00A92325 /* Images.xcassets */,
+				B5AE87F41A44BDFA00A92325 /* LaunchScreen.xib */,
+				B5AE87E91A44BDFA00A92325 /* Supporting Files */,
+			);
+			path = "Time Color";
+			sourceTree = "<group>";
+		};
+		B5AE87E91A44BDFA00A92325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE87EA1A44BDFA00A92325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5AE87FE1A44BDFA00A92325 /* Time ColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE88011A44BDFA00A92325 /* Time_ColorTests.swift */,
+				B5AE87FF1A44BDFA00A92325 /* Supporting Files */,
+			);
+			path = "Time ColorTests";
+			sourceTree = "<group>";
+		};
+		B5AE87FF1A44BDFA00A92325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE88001A44BDFA00A92325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5AE88101A44BE2000A92325 /* Time Color WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE88131A44BE2000A92325 /* InterfaceController.swift */,
+				B5AE88151A44BE2000A92325 /* GlanceController.swift */,
+				B5AE88171A44BE2000A92325 /* Images.xcassets */,
+				B5AE88111A44BE2000A92325 /* Supporting Files */,
+			);
+			path = "Time Color WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B5AE88111A44BE2000A92325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE88121A44BE2000A92325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5AE881F1A44BE2000A92325 /* Time Color WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE88221A44BE2000A92325 /* Interface.storyboard */,
+				B5AE88241A44BE2000A92325 /* Images.xcassets */,
+				B5AE88201A44BE2000A92325 /* Supporting Files */,
+			);
+			path = "Time Color WatchKit App";
+			sourceTree = "<group>";
+		};
+		B5AE88201A44BE2000A92325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE88211A44BE2000A92325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5AE87E51A44BDFA00A92325 /* Time Color */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AE88051A44BDFA00A92325 /* Build configuration list for PBXNativeTarget "Time Color" */;
+			buildPhases = (
+				B5AE87E21A44BDFA00A92325 /* Sources */,
+				B5AE87E31A44BDFA00A92325 /* Frameworks */,
+				B5AE87E41A44BDFA00A92325 /* Resources */,
+				B5AE882F1A44BE2000A92325 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5AE88271A44BE2000A92325 /* PBXTargetDependency */,
+			);
+			name = "Time Color";
+			productName = "Time Color";
+			productReference = B5AE87E61A44BDFA00A92325 /* Time Color.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5AE87FA1A44BDFA00A92325 /* Time ColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AE88081A44BDFA00A92325 /* Build configuration list for PBXNativeTarget "Time ColorTests" */;
+			buildPhases = (
+				B5AE87F71A44BDFA00A92325 /* Sources */,
+				B5AE87F81A44BDFA00A92325 /* Frameworks */,
+				B5AE87F91A44BDFA00A92325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5AE87FD1A44BDFA00A92325 /* PBXTargetDependency */,
+			);
+			name = "Time ColorTests";
+			productName = "Time ColorTests";
+			productReference = B5AE87FB1A44BDFA00A92325 /* Time ColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5AE880E1A44BE2000A92325 /* Time Color WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AE882C1A44BE2000A92325 /* Build configuration list for PBXNativeTarget "Time Color WatchKit Extension" */;
+			buildPhases = (
+				B5AE880B1A44BE2000A92325 /* Sources */,
+				B5AE880C1A44BE2000A92325 /* Frameworks */,
+				B5AE880D1A44BE2000A92325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5AE881E1A44BE2000A92325 /* PBXTargetDependency */,
+			);
+			name = "Time Color WatchKit Extension";
+			productName = "Time Color WatchKit Extension";
+			productReference = B5AE880F1A44BE2000A92325 /* Time Color WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B5AE881A1A44BE2000A92325 /* Time Color WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AE88291A44BE2000A92325 /* Build configuration list for PBXNativeTarget "Time Color WatchKit App" */;
+			buildPhases = (
+				B5AE88191A44BE2000A92325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Color WatchKit App";
+			productName = "Time Color WatchKit App";
+			productReference = B5AE881B1A44BE2000A92325 /* Time Color WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5AE87DE1A44BDFA00A92325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Konstantin Koval";
+				TargetAttributes = {
+					B5AE87E51A44BDFA00A92325 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B5AE87FA1A44BDFA00A92325 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B5AE87E51A44BDFA00A92325;
+					};
+					B5AE880E1A44BE2000A92325 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B5AE881A1A44BE2000A92325 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = B5AE87E11A44BDFA00A92325 /* Build configuration list for PBXProject "Time Color" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5AE87DD1A44BDFA00A92325;
+			productRefGroup = B5AE87E71A44BDFA00A92325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5AE87E51A44BDFA00A92325 /* Time Color */,
+				B5AE87FA1A44BDFA00A92325 /* Time ColorTests */,
+				B5AE880E1A44BE2000A92325 /* Time Color WatchKit Extension */,
+				B5AE881A1A44BE2000A92325 /* Time Color WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5AE87E41A44BDFA00A92325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AE87F11A44BDFA00A92325 /* Main.storyboard in Resources */,
+				B5AE87F61A44BDFA00A92325 /* LaunchScreen.xib in Resources */,
+				B5AE87F31A44BDFA00A92325 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE87F91A44BDFA00A92325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE880D1A44BE2000A92325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AE881C1A44BE2000A92325 /* Time Color WatchKit App.app in Resources */,
+				B5AE88181A44BE2000A92325 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE88191A44BE2000A92325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AE88231A44BE2000A92325 /* Interface.storyboard in Resources */,
+				B5AE88251A44BE2000A92325 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5AE87E21A44BDFA00A92325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AE87EE1A44BDFA00A92325 /* ViewController.swift in Sources */,
+				B5AE87EC1A44BDFA00A92325 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE87F71A44BDFA00A92325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AE88021A44BDFA00A92325 /* Time_ColorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AE880B1A44BE2000A92325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AE88141A44BE2000A92325 /* InterfaceController.swift in Sources */,
+				B5AE88161A44BE2000A92325 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5AE87FD1A44BDFA00A92325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5AE87E51A44BDFA00A92325 /* Time Color */;
+			targetProxy = B5AE87FC1A44BDFA00A92325 /* PBXContainerItemProxy */;
+		};
+		B5AE881E1A44BE2000A92325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5AE881A1A44BE2000A92325 /* Time Color WatchKit App */;
+			targetProxy = B5AE881D1A44BE2000A92325 /* PBXContainerItemProxy */;
+		};
+		B5AE88271A44BE2000A92325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5AE880E1A44BE2000A92325 /* Time Color WatchKit Extension */;
+			targetProxy = B5AE88261A44BE2000A92325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5AE87EF1A44BDFA00A92325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AE87F01A44BDFA00A92325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5AE87F41A44BDFA00A92325 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AE87F51A44BDFA00A92325 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5AE88031A44BDFA00A92325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5AE88041A44BDFA00A92325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5AE88061A44BDFA00A92325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Time Color/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5AE88071A44BDFA00A92325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Time Color/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5AE88091A44BDFA00A92325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Time ColorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Color.app/Time Color";
+			};
+			name = Debug;
+		};
+		B5AE880A1A44BDFA00A92325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Time ColorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Color.app/Time Color";
+			};
+			name = Release;
+		};
+		B5AE882A1A44BE2000A92325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Time_Color_WatchKit_Extension;
+				INFOPLIST_FILE = "Time Color WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B5AE882B1A44BE2000A92325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Time_Color_WatchKit_Extension;
+				INFOPLIST_FILE = "Time Color WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B5AE882D1A44BE2000A92325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Time Color WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5AE882E1A44BE2000A92325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Time Color WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5AE87E11A44BDFA00A92325 /* Build configuration list for PBXProject "Time Color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AE88031A44BDFA00A92325 /* Debug */,
+				B5AE88041A44BDFA00A92325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AE88051A44BDFA00A92325 /* Build configuration list for PBXNativeTarget "Time Color" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AE88061A44BDFA00A92325 /* Debug */,
+				B5AE88071A44BDFA00A92325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5AE88081A44BDFA00A92325 /* Build configuration list for PBXNativeTarget "Time ColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AE88091A44BDFA00A92325 /* Debug */,
+				B5AE880A1A44BDFA00A92325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5AE88291A44BE2000A92325 /* Build configuration list for PBXNativeTarget "Time Color WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AE882A1A44BE2000A92325 /* Debug */,
+				B5AE882B1A44BE2000A92325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5AE882C1A44BE2000A92325 /* Build configuration list for PBXNativeTarget "Time Color WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AE882D1A44BE2000A92325 /* Debug */,
+				B5AE882E1A44BE2000A92325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5AE87DE1A44BDFA00A92325 /* Project object */;
+}
