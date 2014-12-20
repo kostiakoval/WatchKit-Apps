@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51F78E81A45552900E8F7C3 /* Hexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F78E71A45552900E8F7C3 /* Hexes.swift */; };
 		B5AE87EC1A44BDFA00A92325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE87EB1A44BDFA00A92325 /* AppDelegate.swift */; };
 		B5AE87EE1A44BDFA00A92325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE87ED1A44BDFA00A92325 /* ViewController.swift */; };
 		B5AE87F11A44BDFA00A92325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AE87EF1A44BDFA00A92325 /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B51F78E71A45552900E8F7C3 /* Hexes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexes.swift; sourceTree = SOURCE_ROOT; };
 		B5AE87E61A44BDFA00A92325 /* Time Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5AE87EA1A44BDFA00A92325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5AE87EB1A44BDFA00A92325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		B5AE88101A44BE2000A92325 /* Time Color WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B51F78E71A45552900E8F7C3 /* Hexes.swift */,
 				B5AE88131A44BE2000A92325 /* InterfaceController.swift */,
 				B5AE88151A44BE2000A92325 /* GlanceController.swift */,
 				B5AE88171A44BE2000A92325 /* Images.xcassets */,
@@ -384,6 +387,7 @@
 			files = (
 				B5AE88141A44BE2000A92325 /* InterfaceController.swift in Sources */,
 				B5AE88161A44BE2000A92325 /* GlanceController.swift in Sources */,
+				B51F78E81A45552900E8F7C3 /* Hexes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +639,7 @@
 				B5AE88071A44BDFA00A92325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5AE88081A44BDFA00A92325 /* Build configuration list for PBXNativeTarget "Time ColorTests" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +648,7 @@
 				B5AE880A1A44BDFA00A92325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5AE88291A44BE2000A92325 /* Build configuration list for PBXNativeTarget "Time Color WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +657,7 @@
 				B5AE882B1A44BE2000A92325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5AE882C1A44BE2000A92325 /* Build configuration list for PBXNativeTarget "Time Color WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +666,7 @@
 				B5AE882E1A44BE2000A92325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,16 +5,26 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Time Color Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Time_Color_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="TimeColorController" customModule="Time_Color_WatchKit_Extension">
                     <items>
-                        <dateLabel alignment="left" id="fu5-sM-C5P">
-                            <dateFormatterStyle key="dateStyle" none="YES" short="YES"/>
-                            <dateFormatterStyle key="timeStyle" none="YES" short="YES"/>
-                        </dateLabel>
+                        <group width="1" height="1" alignment="left" layout="vertical" hasDetent="YES" id="JsQ-mP-b3e">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="22:10:52" minimumScaleFactor="0.50000000000000011" id="dWe-Jp-jCZ">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="30"/>
+                                </label>
+                                <label alignment="center" verticalAlignment="center" text="#103522" id="tSB-2U-wK0"/>
+                            </items>
+                        </group>
                     </items>
+                    <connections>
+                        <outlet property="background" destination="JsQ-mP-b3e" id="1WO-jI-0za"/>
+                        <outlet property="coloHash" destination="tSB-2U-wK0" id="V2h-6w-nIO"/>
+                        <outlet property="timeLabel" destination="dWe-Jp-jCZ" id="z5X-fI-KWa"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="164" y="217"/>
