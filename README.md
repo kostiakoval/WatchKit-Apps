@@ -34,11 +34,11 @@ Project also demonstrate how to share common code
 
 # Ideas!  
 
-Have idea for an Watch App?  
+Have an idea for the Watch App?  
 Do you want it to be open-sourced here?  
-Let's share knowledge, apps and happiness!  
+Let's share knowledge, apps and happiness! Let's make this world a better place together!
 
-Contact me!
+**Contact me!**
 
 # Contact
 
