@@ -23,7 +23,7 @@ Project also demonstrate how to share common code
 ![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/watch-ApsCommunication.jpg)
 ![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/iphone-ApsCommunication.png)
 
-**AppsCommunication** - lauching iOS app from watch
+**AppsCommunication** - Launching iOS app from watch
 
 ### Time Color
 
@@ -31,3 +31,17 @@ Project also demonstrate how to share common code
 
 
 **Time Color** - Display current time and a hex color for that time as a background
+
+# Ideas!  
+
+Have an idea for the Watch App?  
+Do you want it to be open-sourced here?  
+Let's share knowledge, apps and happiness! Let's make this world a better place together!
+
+**Contact me!**
+
+# Contact
+
+Konstantin Koval  
+[konstantin.koval1@gmail.com](mailto:konstantin.koval1@gmail.com)  
+[@KostiaKoval](https://twitter.com/KostiaKoval)
