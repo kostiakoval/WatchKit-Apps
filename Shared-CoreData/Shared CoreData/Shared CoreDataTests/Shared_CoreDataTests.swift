@@ -1,6 +1,6 @@
 //
-//  CoreDataTests.swift
-//  CoreDataTests
+//  Shared_CoreDataTests.swift
+//  Shared CoreDataTests
 //
 //  Created by Konstantin Koval on 24/12/14.
 //  Copyright (c) 2014 Konstantin Koval. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class CoreDataTests: XCTestCase {
+class Shared_CoreDataTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

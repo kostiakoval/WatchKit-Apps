@@ -1,17 +1,19 @@
 //
 //  AppDelegate.swift
-//  CoreData
+//  Shared CoreData
 //
 //  Created by Konstantin Koval on 24/12/14.
 //  Copyright (c) 2014 Konstantin Koval. All rights reserved.
 //
 
 import UIKit
+import Seru
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+  
   var window: UIWindow?
+  lazy var persistance = PersistenceLayer(type: .SQLite, location: .SharedGroup(SharedGroupName))
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {

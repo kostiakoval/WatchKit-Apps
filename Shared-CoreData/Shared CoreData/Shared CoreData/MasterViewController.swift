@@ -1,6 +1,6 @@
 //
 //  MasterViewController.swift
-//  CoreData
+//  Shared CoreData
 //
 //  Created by Konstantin Koval on 24/12/14.
 //  Copyright (c) 2014 Konstantin Koval. All rights reserved.
