@@ -1,0 +1,3 @@
+[submodule "Vendors/Seru"]
+	path = Vendors/Seru
+url=https://github.com/konstantinkoval/Seru.git
