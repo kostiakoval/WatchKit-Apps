@@ -5,7 +5,7 @@ Table of Contents
 ---
 
 - Apps
-  1. [Counter](#counter)
+  1. [Counter](#1.-counter)
   2. [Data Sharing](#data-sharing)
   3. [AppsCommunication](#apps-Communication)
   4. [Time Color](#time-color)    
