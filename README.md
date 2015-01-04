@@ -31,7 +31,7 @@ how to use NSUserDefaults to save data
 Table based UI fir both iOS and watch.  
 Project also demonstrate how to share common code  
 
-### 3. AppsCommunication
+### 3. Apps Communication
 
 ![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/watch-ApsCommunication.jpg)
 ![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/iphone-ApsCommunication.png)
