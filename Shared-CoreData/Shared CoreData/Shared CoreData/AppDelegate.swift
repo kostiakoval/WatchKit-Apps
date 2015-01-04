@@ -8,16 +8,22 @@
 
 import UIKit
 import Seru
+import SharedKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
   var window: UIWindow?
-  lazy var persistance = PersistenceLayer(type: .SQLite, location: .SharedGroup(SharedGroupName))
-
+  var persistance = PersistenceLayer(name: "Database", location: .SharedGroup(SharedGroupName),  modelLocation: .FrameworksBundle)
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+    
+    if let navigationVC = window?.rootViewController as? UINavigationController {
+      if let masterVC = navigationVC.topViewController as? MasterViewController {
+        masterVC.stack = persistance
+      }
+    }
+
     return true
   }
 
@@ -27,6 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 
   func applicationDidEnterBackground(application: UIApplication) {
+    persistance.persist()
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
   }

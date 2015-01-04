@@ -8,4 +8,4 @@
 
 import Foundation
 
-let SharedGroupName = "group.com.kkoval.DataSharing"
+public let SharedGroupName = "group.com.kkoval.DataSharing"
