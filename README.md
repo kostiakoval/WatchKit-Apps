@@ -5,12 +5,13 @@ Table of Contents
 ---
 
 
-1. [Counter](#Counter)
-2. [Data Sharing](#Data Sharing)
+1. [Counter](#counter)
+2. [Data Sharing](#data-sharing)
 3. [AppsCommunication](#AppsCommunication)
 4. [Time Color](#)
 5. [Ideas!](#)
 6. [Contact](#) 
+
 
 ### Counter 
 
