@@ -7,10 +7,11 @@ Table of Contents
 
 1. [Counter](#counter)
 2. [Data Sharing](#data-sharing)
-3. [AppsCommunication](#AppsCommunication)
-4. [Time Color](#)
-5. [Ideas!](#)
-6. [Contact](#) 
+3. [AppsCommunication](#apps-Communication)
+4. [Time Color](#time-color)
+
+5. [Ideas!](#ideas)
+6. [Contact](#contact) 
 
 
 ### Counter 
