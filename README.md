@@ -7,7 +7,7 @@ Table of Contents
 - Apps
   1. [Counter](#1-counter)
   2. [Data Sharing](#2-data-sharing)
-  3. [AppsCommunication](#3-apps-Communication)
+  3. [AppsCommunication](#3-apps-communication)
   4. [Time Color](#4-time-color)    
   5. [Shared Core Data](#5-shared-core-data)
 - [Ideas!](#ideas)
@@ -31,7 +31,7 @@ how to use NSUserDefaults to save data
 Table based UI fir both iOS and watch.  
 Project also demonstrate how to share common code  
 
-### 3. AppsCommunication
+### 3. Apps Communication
 
 ![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/watch-ApsCommunication.jpg)
 ![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/iphone-ApsCommunication.png)
