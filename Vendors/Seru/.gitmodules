@@ -1,0 +1,3 @@
+[submodule "Sweet"]
+	path = Sweet
+url=git://github.com/konstantinkoval/Sweet.git
