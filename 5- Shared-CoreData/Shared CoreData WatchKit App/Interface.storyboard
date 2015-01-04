@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Shared_CoreData_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" layout="vertical" id="Jdq-kr-HmB">
+                            <items>
+                                <tableRow identifier="Row" id="mK4-1f-vk7" customClass="RowController" customModule="Shared_CoreData_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="vWA-F4-UaF">
+                                        <items>
+                                            <label alignment="left" text="Label" id="6sV-zl-Dpy"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="name" destination="6sV-zl-Dpy" id="RKT-El-u29"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Jdq-kr-HmB" id="9AW-ch-bkg"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
