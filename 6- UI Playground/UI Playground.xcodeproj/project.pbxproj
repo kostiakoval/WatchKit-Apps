@@ -13,6 +13,12 @@
 		B5941E2D1A6137F9006DDAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941E2C1A6137F9006DDAEB /* Images.xcassets */; };
 		B5941E301A6137F9006DDAEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5941E2E1A6137F9006DDAEB /* LaunchScreen.xib */; };
 		B5941E3C1A6137F9006DDAEB /* UI_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941E3B1A6137F9006DDAEB /* UI_PlaygroundTests.swift */; };
+		B5941E4E1A613859006DDAEB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941E4D1A613859006DDAEB /* InterfaceController.swift */; };
+		B5941E501A613859006DDAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941E4F1A613859006DDAEB /* Images.xcassets */; };
+		B5941E541A613859006DDAEB /* UI Playground WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B5941E531A613859006DDAEB /* UI Playground WatchKit App.app */; };
+		B5941E5B1A613859006DDAEB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941E5A1A613859006DDAEB /* Interface.storyboard */; };
+		B5941E5D1A613859006DDAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941E5C1A613859006DDAEB /* Images.xcassets */; };
+		B5941E601A613859006DDAEB /* UI Playground WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5941E491A613859006DDAEB /* UI Playground WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = B5941E1F1A6137F9006DDAEB;
 			remoteInfo = "UI Playground";
 		};
+		B5941E551A613859006DDAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5941E181A6137F9006DDAEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5941E521A613859006DDAEB;
+			remoteInfo = "UI Playground WatchKit App";
+		};
+		B5941E5E1A613859006DDAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5941E181A6137F9006DDAEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5941E481A613859006DDAEB;
+			remoteInfo = "UI Playground WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5941E671A613859006DDAEB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5941E601A613859006DDAEB /* UI Playground WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B5941E201A6137F9006DDAEB /* UI Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		B5941E351A6137F9006DDAEB /* UI PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5941E3A1A6137F9006DDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5941E3B1A6137F9006DDAEB /* UI_PlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_PlaygroundTests.swift; sourceTree = "<group>"; };
+		B5941E491A613859006DDAEB /* UI Playground WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UI Playground WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5941E4C1A613859006DDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5941E4D1A613859006DDAEB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B5941E4F1A613859006DDAEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5941E531A613859006DDAEB /* UI Playground WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Playground WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5941E591A613859006DDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5941E5A1A613859006DDAEB /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		B5941E5C1A613859006DDAEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5941E461A613859006DDAEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				B5941E221A6137F9006DDAEB /* UI Playground */,
 				B5941E381A6137F9006DDAEB /* UI PlaygroundTests */,
+				B5941E4A1A613859006DDAEB /* UI Playground WatchKit Extension */,
+				B5941E571A613859006DDAEB /* UI Playground WatchKit App */,
 				B5941E211A6137F9006DDAEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				B5941E201A6137F9006DDAEB /* UI Playground.app */,
 				B5941E351A6137F9006DDAEB /* UI PlaygroundTests.xctest */,
+				B5941E491A613859006DDAEB /* UI Playground WatchKit Extension.appex */,
+				B5941E531A613859006DDAEB /* UI Playground WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5941E4A1A613859006DDAEB /* UI Playground WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B5941E4D1A613859006DDAEB /* InterfaceController.swift */,
+				B5941E4F1A613859006DDAEB /* Images.xcassets */,
+				B5941E4B1A613859006DDAEB /* Supporting Files */,
+			);
+			path = "UI Playground WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B5941E4B1A613859006DDAEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5941E4C1A613859006DDAEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5941E571A613859006DDAEB /* UI Playground WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B5941E5A1A613859006DDAEB /* Interface.storyboard */,
+				B5941E5C1A613859006DDAEB /* Images.xcassets */,
+				B5941E581A613859006DDAEB /* Supporting Files */,
+			);
+			path = "UI Playground WatchKit App";
+			sourceTree = "<group>";
+		};
+		B5941E581A613859006DDAEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5941E591A613859006DDAEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				B5941E1C1A6137F9006DDAEB /* Sources */,
 				B5941E1D1A6137F9006DDAEB /* Frameworks */,
 				B5941E1E1A6137F9006DDAEB /* Resources */,
+				B5941E671A613859006DDAEB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B5941E5F1A613859006DDAEB /* PBXTargetDependency */,
 			);
 			name = "UI Playground";
 			productName = "UI Playground";
@@ -150,6 +241,39 @@
 			productReference = B5941E351A6137F9006DDAEB /* UI PlaygroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B5941E481A613859006DDAEB /* UI Playground WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5941E661A613859006DDAEB /* Build configuration list for PBXNativeTarget "UI Playground WatchKit Extension" */;
+			buildPhases = (
+				B5941E451A613859006DDAEB /* Sources */,
+				B5941E461A613859006DDAEB /* Frameworks */,
+				B5941E471A613859006DDAEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5941E561A613859006DDAEB /* PBXTargetDependency */,
+			);
+			name = "UI Playground WatchKit Extension";
+			productName = "UI Playground WatchKit Extension";
+			productReference = B5941E491A613859006DDAEB /* UI Playground WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B5941E521A613859006DDAEB /* UI Playground WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5941E651A613859006DDAEB /* Build configuration list for PBXNativeTarget "UI Playground WatchKit App" */;
+			buildPhases = (
+				B5941E511A613859006DDAEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI Playground WatchKit App";
+			productName = "UI Playground WatchKit App";
+			productReference = B5941E531A613859006DDAEB /* UI Playground WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					B5941E341A6137F9006DDAEB = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = B5941E1F1A6137F9006DDAEB;
+					};
+					B5941E481A613859006DDAEB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B5941E521A613859006DDAEB = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				B5941E1F1A6137F9006DDAEB /* UI Playground */,
 				B5941E341A6137F9006DDAEB /* UI PlaygroundTests */,
+				B5941E481A613859006DDAEB /* UI Playground WatchKit Extension */,
+				B5941E521A613859006DDAEB /* UI Playground WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5941E471A613859006DDAEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5941E541A613859006DDAEB /* UI Playground WatchKit App.app in Resources */,
+				B5941E501A613859006DDAEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5941E511A613859006DDAEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5941E5B1A613859006DDAEB /* Interface.storyboard in Resources */,
+				B5941E5D1A613859006DDAEB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5941E451A613859006DDAEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5941E4E1A613859006DDAEB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = B5941E1F1A6137F9006DDAEB /* UI Playground */;
 			targetProxy = B5941E361A6137F9006DDAEB /* PBXContainerItemProxy */;
+		};
+		B5941E561A613859006DDAEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5941E521A613859006DDAEB /* UI Playground WatchKit App */;
+			targetProxy = B5941E551A613859006DDAEB /* PBXContainerItemProxy */;
+		};
+		B5941E5F1A613859006DDAEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5941E481A613859006DDAEB /* UI Playground WatchKit Extension */;
+			targetProxy = B5941E5E1A613859006DDAEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "UI Playground/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "UI Playground/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +556,62 @@
 			};
 			name = Release;
 		};
+		B5941E611A613859006DDAEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI Playground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5941E621A613859006DDAEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI Playground WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B5941E631A613859006DDAEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = UI_Playground_WatchKit_Extension;
+				INFOPLIST_FILE = "UI Playground WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B5941E641A613859006DDAEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = UI_Playground_WatchKit_Extension;
+				INFOPLIST_FILE = "UI Playground WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,12 +631,30 @@
 				B5941E411A6137F9006DDAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5941E421A6137F9006DDAEB /* Build configuration list for PBXNativeTarget "UI PlaygroundTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5941E431A6137F9006DDAEB /* Debug */,
 				B5941E441A6137F9006DDAEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5941E651A613859006DDAEB /* Build configuration list for PBXNativeTarget "UI Playground WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5941E631A613859006DDAEB /* Debug */,
+				B5941E641A613859006DDAEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5941E661A613859006DDAEB /* Build configuration list for PBXNativeTarget "UI Playground WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5941E611A613859006DDAEB /* Debug */,
+				B5941E621A613859006DDAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
