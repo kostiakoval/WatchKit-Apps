@@ -12,6 +12,20 @@ import Foundation
 
 class ButtonsInterfaceController: WKInterfaceController {
   
+  @IBOutlet weak var button1: WKInterfaceButton!
+  @IBOutlet weak var button2: WKInterfaceButton!
+  @IBOutlet weak var button3: WKInterfaceButton!
+  
+  @IBAction func action1() {
+    println("Action 1")
+  }
+  @IBAction func action2() {
+    println("Action 2")
+  }
+  @ IBAction func action3() {
+    println("Action 3")
+  }
+  
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     
@@ -30,5 +44,5 @@ class ButtonsInterfaceController: WKInterfaceController {
     NSLog("%@ did deactivate", self)
     super.didDeactivate()
   }
-  
 }
+
