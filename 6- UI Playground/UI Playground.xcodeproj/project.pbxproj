@@ -19,6 +19,7 @@
 		B5941E5B1A613859006DDAEB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941E5A1A613859006DDAEB /* Interface.storyboard */; };
 		B5941E5D1A613859006DDAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941E5C1A613859006DDAEB /* Images.xcassets */; };
 		B5941E601A613859006DDAEB /* UI Playground WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5941E491A613859006DDAEB /* UI Playground WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5941E691A614C05006DDAEB /* Interface Bad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941E681A614C05006DDAEB /* Interface Bad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		B5941E591A613859006DDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5941E5A1A613859006DDAEB /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		B5941E5C1A613859006DDAEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5941E681A614C05006DDAEB /* Interface Bad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Interface Bad.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				B5941E5A1A613859006DDAEB /* Interface.storyboard */,
+				B5941E681A614C05006DDAEB /* Interface Bad.storyboard */,
 				B5941E5C1A613859006DDAEB /* Images.xcassets */,
 				B5941E581A613859006DDAEB /* Supporting Files */,
 			);
@@ -350,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5941E691A614C05006DDAEB /* Interface Bad.storyboard in Resources */,
 				B5941E5B1A613859006DDAEB /* Interface.storyboard in Resources */,
 				B5941E5D1A613859006DDAEB /* Images.xcassets in Resources */,
 			);
