@@ -253,7 +253,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="1008" y="305"/>
+            <point key="canvasLocation" x="999" y="974"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="U9w-bm-Z3t">
@@ -291,7 +291,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="999" y="635"/>
+            <point key="canvasLocation" x="887" y="402.5"/>
         </scene>
         <!--Size - Fixed-->
         <scene sceneID="rTf-Xn-6jS">

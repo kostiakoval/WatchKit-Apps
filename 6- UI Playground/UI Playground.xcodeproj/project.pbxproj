@@ -13,13 +13,13 @@
 		B5941E2D1A6137F9006DDAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941E2C1A6137F9006DDAEB /* Images.xcassets */; };
 		B5941E301A6137F9006DDAEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5941E2E1A6137F9006DDAEB /* LaunchScreen.xib */; };
 		B5941E3C1A6137F9006DDAEB /* UI_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941E3B1A6137F9006DDAEB /* UI_PlaygroundTests.swift */; };
-		B5941E4E1A613859006DDAEB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941E4D1A613859006DDAEB /* InterfaceController.swift */; };
 		B5941E501A613859006DDAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941E4F1A613859006DDAEB /* Images.xcassets */; };
 		B5941E541A613859006DDAEB /* UI Playground WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B5941E531A613859006DDAEB /* UI Playground WatchKit App.app */; };
 		B5941E5B1A613859006DDAEB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941E5A1A613859006DDAEB /* Interface.storyboard */; };
 		B5941E5D1A613859006DDAEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5941E5C1A613859006DDAEB /* Images.xcassets */; };
 		B5941E601A613859006DDAEB /* UI Playground WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5941E491A613859006DDAEB /* UI Playground WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B5941E691A614C05006DDAEB /* Interface Bad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941E681A614C05006DDAEB /* Interface Bad.storyboard */; };
+		B5941E6B1A614F92006DDAEB /* ButtonsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941E6A1A614F91006DDAEB /* ButtonsInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,13 +73,13 @@
 		B5941E3B1A6137F9006DDAEB /* UI_PlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_PlaygroundTests.swift; sourceTree = "<group>"; };
 		B5941E491A613859006DDAEB /* UI Playground WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UI Playground WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5941E4C1A613859006DDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5941E4D1A613859006DDAEB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		B5941E4F1A613859006DDAEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5941E531A613859006DDAEB /* UI Playground WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Playground WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5941E591A613859006DDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5941E5A1A613859006DDAEB /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		B5941E5C1A613859006DDAEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5941E681A614C05006DDAEB /* Interface Bad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Interface Bad.storyboard"; sourceTree = "<group>"; };
+		B5941E6A1A614F91006DDAEB /* ButtonsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +170,7 @@
 		B5941E4A1A613859006DDAEB /* UI Playground WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B5941E4D1A613859006DDAEB /* InterfaceController.swift */,
+				B5941E6A1A614F91006DDAEB /* ButtonsInterfaceController.swift */,
 				B5941E4F1A613859006DDAEB /* Images.xcassets */,
 				B5941E4B1A613859006DDAEB /* Supporting Files */,
 			);
@@ -383,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5941E4E1A613859006DDAEB /* InterfaceController.swift in Sources */,
+				B5941E6B1A614F92006DDAEB /* ButtonsInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
