@@ -29,8 +29,9 @@ class ButtonsInterfaceController: WKInterfaceController {
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     
-    // Configure interface objects here.
-    NSLog("%@ awakeWithContext", self)
+    button1.setTitle("Title 1")
+    button2.setTitle("Title 2")
+    button3.setTitle("Title 3")
   }
   
   override func willActivate() {
