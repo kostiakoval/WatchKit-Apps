@@ -31,7 +31,7 @@ struct ItemsViewModel {
     println(defaults?.synchronize())
   }
   func load() -> [String] {
-    return defaults?.objectForKey(itemsKey) as [String]
+    return defaults?.objectForKey(itemsKey) as? [String] ?? []
   }
   
   private let itemsKey = "items"
