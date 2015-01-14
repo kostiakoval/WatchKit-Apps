@@ -49,6 +49,10 @@ Project also demonstrate how to share common code
 
 iPhone and WatchKit apps with shared CoreData database. Projects show how to setup core Data using Sure framework and share code and database between ios and watchKit apps.
 
+**Know Issues:**  
+`- Could not build Objective-C module ... ` 
+Select the framework target that couldn't be build and build it. The project dependencies are not build in correct order :(
+
 
 # Ideas!  
 
