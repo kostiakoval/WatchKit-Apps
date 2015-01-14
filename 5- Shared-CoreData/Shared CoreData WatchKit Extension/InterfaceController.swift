@@ -17,7 +17,7 @@ class InterfaceController: WKInterfaceController {
   @IBOutlet weak var table: WKInterfaceTable!
 
   var objects: [Record]!
-  lazy var stack = PersistenceLayer(name: "Database", location: .SharedGroup(SharedGroupName), modelLocation: .FrameworksBundle)
+  lazy var stack = PersistenceLayer(name: "Database", location: .SharedGroup(SharedGroupName), modelLocation: .MainBundle)
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
