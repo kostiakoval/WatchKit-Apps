@@ -14,7 +14,7 @@ import SharedKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
   var window: UIWindow?
-  var persistance = PersistenceLayer(name: "Database", location: .SharedGroup(SharedGroupName),  modelLocation: .FrameworksBundle)
+  var persistance = PersistenceLayer(name: "Database", location: .SharedGroup(SharedGroupName),  modelLocation: .MainBundle)
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     

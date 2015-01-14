@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B51CB2DE1A5812A8003767F1 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
-		B51CB2E01A5815F2003767F1 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
 		B52881781A5808AB00407EB4 /* SharedKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B52881771A5808AB00407EB4 /* SharedKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B528817E1A5808AC00407EB4 /* SharedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; };
 		B52881871A5808AC00407EB4 /* SharedKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881861A5808AC00407EB4 /* SharedKitTests.swift */; };
-		B528818A1A5808AC00407EB4 /* SharedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; };
-		B528818B1A5808AC00407EB4 /* SharedKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B52881971A58093C00407EB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881941A58093C00407EB4 /* Constants.swift */; };
 		B52881981A58093C00407EB4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881951A58093C00407EB4 /* DataManager.swift */; };
 		B52881991A58093C00407EB4 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881961A58093C00407EB4 /* Record.swift */; };
+		B53780161A665C67003538A5 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
+		B53780171A665C68003538A5 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
 		B538090D1A4B607900E3575A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B538090C1A4B607900E3575A /* AppDelegate.swift */; };
 		B538090F1A4B607900E3575A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B538090E1A4B607900E3575A /* MasterViewController.swift */; };
 		B53809111A4B607900E3575A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53809101A4B607900E3575A /* DetailViewController.swift */; };
@@ -30,6 +28,10 @@
 		B53809461A4B60A800E3575A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53809451A4B60A800E3575A /* Interface.storyboard */; };
 		B53809481A4B60A800E3575A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53809471A4B60A800E3575A /* Images.xcassets */; };
 		B538094B1A4B60A800E3575A /* Shared CoreData WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B53809341A4B60A700E3575A /* Shared CoreData WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5597A6E1A659A160051F42D /* Seru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58516611A658EE50033BB3F /* Seru.framework */; };
+		B5597A6F1A659A160051F42D /* Seru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B58516611A658EE50033BB3F /* Seru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B5597A731A659A250051F42D /* SharedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; };
+		B5597A741A659A250051F42D /* SharedKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B5C80D351A506C3E00390A61 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C80D341A506C3E00390A61 /* WatchKit.framework */; };
 		B5F5A5501A4FEAB000B3E057 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F5A54F1A4FEAB000B3E057 /* RowController.swift */; };
 /* End PBXBuildFile section */
@@ -48,13 +50,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = B53809061A4B607900E3575A;
 			remoteInfo = "Shared CoreData";
-		};
-		B52881881A5808AC00407EB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B53808FF1A4B607900E3575A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B52881721A5808AB00407EB4;
-			remoteInfo = SharedKit;
 		};
 		B538091F1A4B607900E3575A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -77,16 +72,30 @@
 			remoteGlobalIDString = B53809331A4B60A700E3575A;
 			remoteInfo = "Shared CoreData WatchKit Extension";
 		};
-		B5B365DF1A59C80F008EC47B /* PBXContainerItemProxy */ = {
+		B5597A701A659A160051F42D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5B365D91A59C80F008EC47B /* Seru.xcodeproj */;
+			containerPortal = B585165A1A658EE50033BB3F /* Seru.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B59F933819AE0A1F00AA2ED3;
+			remoteInfo = Seru;
+		};
+		B5597A751A659A250051F42D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53808FF1A4B607900E3575A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B52881721A5808AB00407EB4;
+			remoteInfo = SharedKit;
+		};
+		B58516601A658EE50033BB3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B585165A1A658EE50033BB3F /* Seru.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B59F933919AE0A1F00AA2ED3;
 			remoteInfo = Seru;
 		};
-		B5B365E11A59C80F008EC47B /* PBXContainerItemProxy */ = {
+		B58516621A658EE50033BB3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B5B365D91A59C80F008EC47B /* Seru.xcodeproj */;
+			containerPortal = B585165A1A658EE50033BB3F /* Seru.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B59F934419AE0A1F00AA2ED3;
 			remoteInfo = SeruTests;
@@ -105,13 +114,14 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B53809BB1A4B62B800E3575A /* Embed Frameworks */ = {
+		B5597A721A659A160051F42D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B528818B1A5808AC00407EB4 /* SharedKit.framework in Embed Frameworks */,
+				B5597A741A659A250051F42D /* SharedKit.framework in Embed Frameworks */,
+				B5597A6F1A659A160051F42D /* Seru.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +160,8 @@
 		B53809451A4B60A800E3575A /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		B53809471A4B60A800E3575A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B53809541A4B60B700E3575A /* Shared CoreData WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Shared CoreData WatchKit Extension.entitlements"; path = "Shared CoreData WatchKit Extension/Shared CoreData WatchKit Extension.entitlements"; sourceTree = "<group>"; };
-		B5B365D91A59C80F008EC47B /* Seru.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Seru.xcodeproj; path = Seru/Seru/Seru.xcodeproj; sourceTree = "<group>"; };
+		B57538CE1A658CBF00576C36 /* Sweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Sweet.framework; path = "/Users/konstantin/My_Projects/WatchKit -/WatchKit-Apps/5- Shared-CoreData/DerivedData/Shared CoreData/Build/Products/Debug-iphoneos/Sweet.framework"; sourceTree = "<absolute>"; };
+		B585165A1A658EE50033BB3F /* Seru.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Seru.xcodeproj; path = Seru/Seru/Seru.xcodeproj; sourceTree = "<group>"; };
 		B5C80D341A506C3E00390A61 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		B5F5A54F1A4FEAB000B3E057 /* RowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,7 +186,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B528818A1A5808AC00407EB4 /* SharedKit.framework in Frameworks */,
+				B5597A731A659A250051F42D /* SharedKit.framework in Frameworks */,
+				B5597A6E1A659A160051F42D /* Seru.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +215,6 @@
 				B52881941A58093C00407EB4 /* Constants.swift */,
 				B52881951A58093C00407EB4 /* DataManager.swift */,
 				B52881961A58093C00407EB4 /* Record.swift */,
-				B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */,
 				B52881771A5808AB00407EB4 /* SharedKit.h */,
 				B52881751A5808AB00407EB4 /* Supporting Files */,
 			);
@@ -238,6 +249,7 @@
 		B52881931A58091C00407EB4 /* Kit */ = {
 			isa = PBXGroup;
 			children = (
+				B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */,
 				B52881741A5808AB00407EB4 /* SharedKit */,
 				B52881831A5808AC00407EB4 /* SharedKitTests */,
 			);
@@ -368,17 +380,18 @@
 		B53809551A4B613B00E3575A /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				B5B365D91A59C80F008EC47B /* Seru.xcodeproj */,
+				B585165A1A658EE50033BB3F /* Seru.xcodeproj */,
+				B57538CE1A658CBF00576C36 /* Sweet.framework */,
 			);
 			name = Vendors;
 			path = ../Vendors;
 			sourceTree = "<group>";
 		};
-		B5B365DA1A59C80F008EC47B /* Products */ = {
+		B585165B1A658EE50033BB3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5B365E01A59C80F008EC47B /* Seru.framework */,
-				B5B365E21A59C80F008EC47B /* SeruTests.xctest */,
+				B58516611A658EE50033BB3F /* Seru.framework */,
+				B58516631A658EE50033BB3F /* SeruTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -442,13 +455,14 @@
 				B53809041A4B607900E3575A /* Frameworks */,
 				B53809051A4B607900E3575A /* Resources */,
 				B53809521A4B60A800E3575A /* Embed App Extensions */,
-				B53809BB1A4B62B800E3575A /* Embed Frameworks */,
+				B5597A721A659A160051F42D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B538094A1A4B60A800E3575A /* PBXTargetDependency */,
-				B52881891A5808AC00407EB4 /* PBXTargetDependency */,
+				B5597A711A659A160051F42D /* PBXTargetDependency */,
+				B5597A761A659A250051F42D /* PBXTargetDependency */,
 			);
 			name = "Shared CoreData";
 			productName = "Shared CoreData";
@@ -564,8 +578,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B5B365DA1A59C80F008EC47B /* Products */;
-					ProjectRef = B5B365D91A59C80F008EC47B /* Seru.xcodeproj */;
+					ProductGroup = B585165B1A658EE50033BB3F /* Products */;
+					ProjectRef = B585165A1A658EE50033BB3F /* Seru.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -581,18 +595,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B5B365E01A59C80F008EC47B /* Seru.framework */ = {
+		B58516611A658EE50033BB3F /* Seru.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Seru.framework;
-			remoteRef = B5B365DF1A59C80F008EC47B /* PBXContainerItemProxy */;
+			remoteRef = B58516601A658EE50033BB3F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B5B365E21A59C80F008EC47B /* SeruTests.xctest */ = {
+		B58516631A658EE50033BB3F /* SeruTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SeruTests.xctest;
-			remoteRef = B5B365E11A59C80F008EC47B /* PBXContainerItemProxy */;
+			remoteRef = B58516621A658EE50033BB3F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -656,7 +670,6 @@
 			files = (
 				B52881971A58093C00407EB4 /* Constants.swift in Sources */,
 				B52881981A58093C00407EB4 /* DataManager.swift in Sources */,
-				B51CB2DE1A5812A8003767F1 /* Shared CoreData.xcdatamodeld in Sources */,
 				B52881991A58093C00407EB4 /* Record.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,6 +688,7 @@
 			files = (
 				B53809111A4B607900E3575A /* DetailViewController.swift in Sources */,
 				B538090F1A4B607900E3575A /* MasterViewController.swift in Sources */,
+				B53780161A665C67003538A5 /* Shared CoreData.xcdatamodeld in Sources */,
 				B538090D1A4B607900E3575A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -693,7 +707,7 @@
 			files = (
 				B5F5A5501A4FEAB000B3E057 /* RowController.swift in Sources */,
 				B53809391A4B60A800E3575A /* InterfaceController.swift in Sources */,
-				B51CB2E01A5815F2003767F1 /* Shared CoreData.xcdatamodeld in Sources */,
+				B53780171A665C68003538A5 /* Shared CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -710,11 +724,6 @@
 			target = B53809061A4B607900E3575A /* Shared CoreData */;
 			targetProxy = B52881811A5808AC00407EB4 /* PBXContainerItemProxy */;
 		};
-		B52881891A5808AC00407EB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B52881721A5808AB00407EB4 /* SharedKit */;
-			targetProxy = B52881881A5808AC00407EB4 /* PBXContainerItemProxy */;
-		};
 		B53809201A4B607900E3575A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B53809061A4B607900E3575A /* Shared CoreData */;
@@ -729,6 +738,16 @@
 			isa = PBXTargetDependency;
 			target = B53809331A4B60A700E3575A /* Shared CoreData WatchKit Extension */;
 			targetProxy = B53809491A4B60A800E3575A /* PBXContainerItemProxy */;
+		};
+		B5597A711A659A160051F42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Seru;
+			targetProxy = B5597A701A659A160051F42D /* PBXContainerItemProxy */;
+		};
+		B5597A761A659A250051F42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B52881721A5808AB00407EB4 /* SharedKit */;
+			targetProxy = B5597A751A659A250051F42D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -920,6 +939,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Shared CoreData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -935,6 +955,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Shared CoreData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1119,7 +1140,8 @@
 				B51CB2DD1A5812A8003767F1 /* Shared CoreData.xcdatamodel */,
 			);
 			currentVersion = B51CB2DD1A5812A8003767F1 /* Shared CoreData.xcdatamodel */;
-			path = "Shared CoreData.xcdatamodeld";
+			name = "Shared CoreData.xcdatamodeld";
+			path = "SharedKit/Shared CoreData.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
