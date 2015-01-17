@@ -1,14 +1,14 @@
 {
   "images" : [
     {
-      "size" : "14.5x14.5",
+      "size" : "22x22",
       "idiom" : "watch",
       "scale" : "2x",
       "role" : "notificationCenter",
       "subtype" : "38mm"
     },
     {
-      "size" : "18x18",
+      "size" : "27.5x27.5",
       "idiom" : "watch",
       "scale" : "2x",
       "role" : "notificationCenter",

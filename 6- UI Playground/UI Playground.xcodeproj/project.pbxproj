@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B53887381A6A3DD30006C866 /* ContentTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53887371A6A3DD30006C866 /* ContentTableController.swift */; };
+		B559003B1A6A43E600DF7892 /* k.swift in Sources */ = {isa = PBXBuildFile; fileRef = B559003A1A6A43E600DF7892 /* k.swift */; };
 		B5941E261A6137F9006DDAEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941E251A6137F9006DDAEB /* AppDelegate.swift */; };
 		B5941E281A6137F9006DDAEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5941E271A6137F9006DDAEB /* ViewController.swift */; };
 		B5941E2B1A6137F9006DDAEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5941E291A6137F9006DDAEB /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B53887371A6A3DD30006C866 /* ContentTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableController.swift; sourceTree = "<group>"; };
+		B559003A1A6A43E600DF7892 /* k.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = k.swift; sourceTree = SOURCE_ROOT; };
 		B5941E201A6137F9006DDAEB /* UI Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5941E241A6137F9006DDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5941E251A6137F9006DDAEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				B5941E6A1A614F91006DDAEB /* ButtonsInterfaceController.swift */,
+				B53887371A6A3DD30006C866 /* ContentTableController.swift */,
+				B559003A1A6A43E600DF7892 /* k.swift */,
 				B5941E4F1A613859006DDAEB /* Images.xcassets */,
 				B5941E4B1A613859006DDAEB /* Supporting Files */,
 			);
@@ -383,6 +389,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B559003B1A6A43E600DF7892 /* k.swift in Sources */,
+				B53887381A6A3DD30006C866 /* ContentTableController.swift in Sources */,
 				B5941E6B1A614F92006DDAEB /* ButtonsInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,6 +661,7 @@
 				B5941E641A613859006DDAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5941E661A613859006DDAEB /* Build configuration list for PBXNativeTarget "UI Playground WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -661,6 +670,7 @@
 				B5941E621A613859006DDAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
