@@ -43,9 +43,8 @@ class FriendsPicker: WKInterfaceController {
   }
   
   func openParent(person: String) {
-    
     var userInfo = ["personName" : person]
-    WKInterfaceController.openParentApplication(userInfo, reply: { (data, error) -> Void in
+    WKInterfaceController.openParentApplication(userInfo, reply: { (data, error) in
       if let error = error {
         println(error)
       }
