@@ -10,6 +10,7 @@ Table of Contents
   3. [AppsCommunication](#3-apps-communication)
   4. [Time Color](#4-time-color)    
   5. [Shared Core Data](#5-shared-core-data)
+  6. [UI Playgrounds](#ui-playgrounds)
 - [Ideas!](#ideas)
 - [Contact](#contact)
 
@@ -52,6 +53,11 @@ iPhone and WatchKit apps with shared CoreData database. Projects show how to set
 **Know Issues:**  
 `- Could not build Objective-C module ... ` 
 Select the framework target that couldn't be build and build it. The project dependencies are not build in correct order :(
+
+
+### 6. UI Playgrounds
+
+Show different layout and UI elements.
 
 
 # Ideas!  
