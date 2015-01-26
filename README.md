@@ -10,7 +10,7 @@ Table of Contents
   3. [AppsCommunication](#3-apps-communication)
   4. [Time Color](#4-time-color)    
   5. [Shared Core Data](#5-shared-core-data)
-  6. [UI Playgrounds](#ui-playgrounds)
+  6. [UI Playgrounds](#6-ui-playgrounds)
 - [Ideas!](#ideas)
 - [Contact](#contact)
 
