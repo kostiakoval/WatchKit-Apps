@@ -18,7 +18,7 @@ class ContentTableController: WKInterfaceController {
   
   @IBOutlet weak var table: WKInterfaceTable!
   let objects = ["Vertical", "Horizontal", "Mixed",
-    "Pos - Vertical", "Pos - Horizontal",
+    "Pos - Vertical", "Pos - Horizontal","Pos - Centering",
     "Size - Fit Content","Size - Relative","Size - Fixed", "Size - Fix One",
     "Order", "Long Scroll"]
   
