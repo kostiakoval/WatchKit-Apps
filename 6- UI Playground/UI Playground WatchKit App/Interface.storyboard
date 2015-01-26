@@ -48,7 +48,7 @@
         <!--Horizontal-->
         <scene sceneID="85W-Kd-Mmc">
             <objects>
-                <controller identifier="Horizontal" id="ZDg-gy-0fH" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Horizontal" id="ZDg-gy-0fH">
                     <items>
                         <group width="1" alignment="left" id="5dd-Rq-PQK">
                             <items>
@@ -74,7 +74,7 @@
         <!--Pos - Horizontal-->
         <scene sceneID="mxt-kc-weN">
             <objects>
-                <controller identifier="Pos - Horizontal" id="TxL-CF-b3x" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Pos - Horizontal" id="TxL-CF-b3x">
                     <items>
                         <button width="0.29999999999999999" alignment="left" title="1" id="8g7-Hb-fSL">
                             <color key="backgroundColor" red="0.49744248390000001" green="0.64893847699999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -96,7 +96,7 @@
         <!--Pos - Vertical-->
         <scene sceneID="738-7k-E6H">
             <objects>
-                <controller identifier="Pos - Vertical" id="Ojt-7D-Ho4" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Pos - Vertical" id="Ojt-7D-Ho4">
                     <items>
                         <button width="0.30000000000000016" alignment="left" title="1" id="xCD-sw-esG">
                             <color key="backgroundColor" red="0.49744248390000001" green="0.64893847699999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -118,7 +118,7 @@
         <!--Size - Fit Content-->
         <scene sceneID="o54-P5-Y8c">
             <objects>
-                <controller identifier="Size - Fit Content" id="XdH-ks-ouB" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Size - Fit Content" id="XdH-ks-ouB">
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="fNV-LM-ero">
                             <items>
@@ -144,7 +144,7 @@
         <!--Size - Relative-->
         <scene sceneID="pcj-w0-g64">
             <objects>
-                <controller identifier="Size - Relative" id="NiY-M7-zRE" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Size - Relative" id="NiY-M7-zRE">
                     <items>
                         <button width="1" height="0.5" alignment="left" title="1" id="uN0-Pj-f5c">
                             <color key="backgroundColor" red="0.49744248390000001" green="0.64893847699999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -166,7 +166,7 @@
         <!--Some-->
         <scene sceneID="Qpk-KK-V7U">
             <objects>
-                <controller identifier="Some" spacing="0.0" id="PdT-Ge-OyC" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Some" spacing="0.0" id="PdT-Ge-OyC">
                     <items>
                         <button width="35" alignment="left" title="1" id="7YO-zL-ou3">
                             <color key="backgroundColor" red="0.49744248390000001" green="0.64893847699999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -188,7 +188,7 @@
         <!--Long Scroll-->
         <scene sceneID="W5C-V5-PAh">
             <objects>
-                <controller identifier="Long Scroll" spacing="0.0" id="kpl-sk-KeX" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Long Scroll" spacing="0.0" id="kpl-sk-KeX">
                     <items>
                         <group alignment="left" layout="vertical" id="dZI-f5-Eyb">
                             <items>
@@ -238,7 +238,7 @@
         <!--Order-->
         <scene sceneID="U9w-bm-Z3t">
             <objects>
-                <controller identifier="Order" spacing="0.0" id="Vgy-b0-pS7" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Order" spacing="0.0" id="Vgy-b0-pS7">
                     <items>
                         <group width="1" height="300" alignment="left" layout="vertical" id="YI6-OS-yWW">
                             <items>
@@ -276,7 +276,7 @@
         <!--Size - Fixed-->
         <scene sceneID="rTf-Xn-6jS">
             <objects>
-                <controller identifier="Size - Fixed" id="L0L-l8-z7D" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Size - Fixed" id="L0L-l8-z7D">
                     <items>
                         <button width="134" height="40" alignment="left" title="1" id="QHk-Ph-V34">
                             <color key="backgroundColor" red="0.49744248390000001" green="0.64893847699999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -295,10 +295,10 @@
             </objects>
             <point key="canvasLocation" x="617" y="825"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Pos - Centering-->
         <scene sceneID="CZw-TW-2NA">
             <objects>
-                <controller id="IdM-iC-m0A">
+                <controller identifier="Pos - Centering" id="IdM-iC-m0A">
                     <items>
                         <button width="1" height="70" alignment="left" verticalAlignment="center" title="1" id="5IE-XL-aZo">
                             <color key="backgroundColor" red="0.4941176471" green="0.64705882349999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -311,7 +311,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="887" y="735"/>
+            <point key="canvasLocation" x="370" y="821"/>
         </scene>
         <!--Table-->
         <scene sceneID="Qit-xJ-dap">
@@ -343,7 +343,7 @@
         <!--Size - Fix One-->
         <scene sceneID="V57-Xe-Cqn">
             <objects>
-                <controller identifier="Size - Fix One" id="PNS-mb-Jn4" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Size - Fix One" id="PNS-mb-Jn4">
                     <items>
                         <button width="134" height="151" alignment="left" title="1" id="ORP-3q-qwG">
                             <color key="backgroundColor" red="0.49744248390000001" green="0.64893847699999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -358,7 +358,7 @@
         <!--Mixed-->
         <scene sceneID="RxU-eR-l0r">
             <objects>
-                <controller identifier="Mixed" id="c96-nV-yRR" customClass="InterfaceController" customModule="UI_Playground_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Mixed" id="c96-nV-yRR">
                     <items>
                         <button width="1" alignment="left" title="1" id="oov-j7-fnX">
                             <color key="backgroundColor" red="0.76089900732040405" green="0.25649610161781311" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -387,7 +387,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="138" y="789"/>
+            <point key="canvasLocation" x="138" y="822.75"/>
         </scene>
     </scenes>
 </document>

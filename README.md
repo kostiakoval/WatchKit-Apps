@@ -57,7 +57,8 @@ Select the framework target that couldn't be build and build it. The project dep
 
 ### 6. UI Playgrounds
 
-Show different layout and UI elements.
+Show different layout and UI elements.  
+<img src="https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/ui-playgrounds.gif" alt="UI playgrounds" width="127" height="200">
 
 
 # Ideas!  
