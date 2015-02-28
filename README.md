@@ -27,8 +27,8 @@ how to use NSUserDefaults to save data
 ### 2. Data Sharing  
 ---
 
-![Data Sharing](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/watch-DataSharing.jpg)
-![Data Sharing](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/iphone-DataSharing.png)
+![Data Sharing](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/watch-DataSharing.jpg)
+![Data Sharing](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/iphone-DataSharing.png)
 
 **Data Sharing** - Sharing data between iOS app and watch app.  
 Table based UI fir both iOS and watch.  
@@ -37,15 +37,14 @@ Project also demonstrate how to share common code
 ### 3. Apps Communication
 ---
 
-![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/watch-ApsCommunication.jpg)
-![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/iphone-ApsCommunication.png)
+![AppsCommunication](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/Commication.gif)
 
 **AppsCommunication** - Launching iOS app from watch
 
 ### 4. Time Color
 ---
 
-![AppsCommunication](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/Time-Color.gif)
+![AppsCommunication](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/Time-Color.gif)
 
 
 **Time Color** - Display current time and a hex color for that time as a background
