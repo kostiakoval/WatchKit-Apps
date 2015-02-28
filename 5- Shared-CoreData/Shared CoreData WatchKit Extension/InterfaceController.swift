@@ -32,7 +32,7 @@ class InterfaceController: WKInterfaceController {
       objects = DataManager.loadAll(self.stack.mainMOC)
       table.setNumberOfRows(objects.count, withRowType: "Row")
       for (index, record: Record) in enumerate(objects) {
-        var rowController = table.rowControllerAtIndex(index) as RowController
+        var rowController = table.rowControllerAtIndex(index) as! RowController
         let r: Record = record
         rowController.name.setText(record.timestamp.description)
       }

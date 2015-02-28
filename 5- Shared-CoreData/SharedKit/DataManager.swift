@@ -22,7 +22,7 @@ public class DataManager {
   }
   
   public class func insertNewRecord(context: NSManagedObjectContext) -> Record {
-    let r: Record = NSEntityDescription.insertNewObjectForEntityForName("Record", inManagedObjectContext: context) as Record
+    let r: Record = NSEntityDescription.insertNewObjectForEntityForName("Record", inManagedObjectContext: context) as! Record
     r.timestamp = NSDate()
     return r
   }

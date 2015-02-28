@@ -50,7 +50,7 @@ class MasterViewController: UITableViewController {
     if segue.identifier == "showDetail" {
         if let indexPath = self.tableView.indexPathForSelectedRow() {
             let object = objects[indexPath.row] as Record
-        (segue.destinationViewController as DetailViewController).detailItem = object
+        (segue.destinationViewController as! DetailViewController).detailItem = object
         }
     }
   }
@@ -66,7 +66,7 @@ class MasterViewController: UITableViewController {
   }
 
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+    let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
 
     let object = objects[indexPath.row]
     cell.textLabel!.text = object.timestamp.description
