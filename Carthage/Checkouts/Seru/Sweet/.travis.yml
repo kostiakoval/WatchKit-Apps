@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode61
+
+before_install:
+- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+
+script:
+- xcodebuild -project Sweet/Sweet.xcodeproj -scheme SweetTests build test | xcpretty -c; exit ${PIPESTATUS[0]}
