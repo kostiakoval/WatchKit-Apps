@@ -39,7 +39,7 @@ class InterfaceController: WKInterfaceController {
     table.setNumberOfRows(viewModel.items.count, withRowType: "ItemCell")
 
     for (index, item) in enumerate(viewModel.items) {
-      var controller = table.rowControllerAtIndex(index) as ItemRowController
+      var controller = table.rowControllerAtIndex(index) as! ItemRowController
       controller.label.setText(item)
     }
   }

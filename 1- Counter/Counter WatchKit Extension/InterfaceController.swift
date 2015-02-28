@@ -16,7 +16,7 @@ class InterfaceController: WKInterfaceController {
 
   var counter: Counter
   
-  override init!() {
+  override init() {
     counter = Counter()
   }
   

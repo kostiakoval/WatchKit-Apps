@@ -18,8 +18,8 @@ class ItemsViewController: UITableViewController {
   }
   
   @IBAction func createItem(sender: UITextField) {
-    let newItem = sender.text
-    viewModel.append(newItem)
+
+    viewModel.append(sender.text)
     sender.text = nil
     tableView.reloadData()
   }
@@ -31,7 +31,7 @@ class ItemsViewController: UITableViewController {
   //  MARK: TableView
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
   {
-    var cell = tableView.dequeueReusableCellWithIdentifier("ItemCell", forIndexPath: indexPath) as UITableViewCell
+    var cell = tableView.dequeueReusableCellWithIdentifier("ItemCell", forIndexPath: indexPath) as! UITableViewCell
     cell.textLabel?.text = viewModel.items[indexPath.row]
     return cell
   }
@@ -43,16 +43,10 @@ class ItemsViewController: UITableViewController {
    
     switch editingStyle {
     case .Delete:
-        println("Deleta")
-        println("Deleta 111")
         viewModel.removeItemAt(indexPath.row)
       tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-    case .Insert:
-      println("Insert")
-    
-    case .None:
-      println("")
-      println("aaa")
+    default:
+        break
     }
   }
   

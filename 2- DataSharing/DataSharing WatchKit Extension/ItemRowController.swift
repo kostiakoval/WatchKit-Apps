@@ -10,6 +10,5 @@ import Foundation
 import WatchKit
 
 class ItemRowController : NSObject {
-  
   @IBOutlet weak var label: WKInterfaceLabel!
 }
