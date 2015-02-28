@@ -26,7 +26,7 @@ class ContentTableController: WKInterfaceController {
     super.awakeWithContext(context)
     table.setRowTypes(Array(count: objects.count, repeatedValue:"Row"))
     for (index, obj) in enumerate(objects) {
-      let controller = table.rowControllerAtIndex(index) as RowController
+      let controller = table.rowControllerAtIndex(index) as! RowController
       controller.titleLabel.setText(obj)
     }
   }
