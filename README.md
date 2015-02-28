@@ -18,7 +18,7 @@ Table of Contents
 ### 1. Counter 
 ---
 
-![Counter](https://raw.githubusercontent.com/konstantinkoval/WatchKit-Apps/master/images/watch-counter.jpg)
+![Counter](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/Counter.gif)
 
 **Counter** - count things in your watch.  
 This project shows how to create basic project setup with UI and   
