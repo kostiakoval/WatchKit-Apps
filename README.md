@@ -67,6 +67,16 @@ Select the framework target that couldn't be build and build it. The project dep
 Show different layout and UI elements.
   
 
+### 7. Pages 
+---
+![Page](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/Pages.gif)  
+
+**Pages**  
+Pases is one of navitgation type on WathcKit. It's the same as you have on our phone.  
+You swipe left and right.  
+In that project you setup pages both in Code and pure UI
+  
+
 # Ideas!  
 ---
 
