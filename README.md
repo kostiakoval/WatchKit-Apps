@@ -62,9 +62,9 @@ Select the framework target that couldn't be build and build it. The project dep
 
 ### 6. UI Playgrounds
 ---
+![AppsCommunication](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/ui-playgrounds.gif)  
 
 Show different layout and UI elements.
-![AppsCommunication](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/ui-playgrounds.gif)
   
 
 # Ideas!  
