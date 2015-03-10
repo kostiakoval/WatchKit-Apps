@@ -1,10 +1,13 @@
 WatchKit-Apps
 =============
 
+Videos coming soon ..., Stay tuned :)  
+
 Table of Contents
 ---
 
-- Apps
+**Apps**
+
   1. [Counter](#1-counter)
   2. [Data Sharing](#2-data-sharing)
   3. [AppsCommunication](#3-apps-communication)
@@ -12,6 +15,7 @@ Table of Contents
   5. [Shared Core Data](#5-shared-core-data)
   6. [UI Playgrounds](#6-ui-playgrounds)
   7. [Pages](#7-pages)
+
 - [Ideas!](#ideas)
 - [Contact](#contact)
 
