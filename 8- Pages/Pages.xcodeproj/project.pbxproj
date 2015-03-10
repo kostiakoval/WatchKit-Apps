@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B54F24E71AAF92A4004CD7E9 /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54F24E61AAF92A4004CD7E9 /* MainInterfaceController.swift */; };
 		B5A6A9D41AAF7C73002EA50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A9D31AAF7C73002EA50B /* AppDelegate.swift */; };
 		B5A6A9D61AAF7C73002EA50B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A9D51AAF7C73002EA50B /* ViewController.swift */; };
 		B5A6A9D91AAF7C73002EA50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A6A9D71AAF7C73002EA50B /* Main.storyboard */; };
 		B5A6A9DB1AAF7C73002EA50B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A6A9DA1AAF7C73002EA50B /* Images.xcassets */; };
 		B5A6A9DE1AAF7C73002EA50B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A6A9DC1AAF7C73002EA50B /* LaunchScreen.xib */; };
 		B5A6A9EA1AAF7C73002EA50B /* PagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A9E91AAF7C73002EA50B /* PagesTests.swift */; };
-		B5A6A9FC1AAF7C7E002EA50B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A9FB1AAF7C7E002EA50B /* InterfaceController.swift */; };
+		B5A6A9FC1AAF7C7E002EA50B /* PageInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A6A9FB1AAF7C7E002EA50B /* PageInterfaceController.swift */; };
 		B5A6A9FE1AAF7C7E002EA50B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A6A9FD1AAF7C7E002EA50B /* Images.xcassets */; };
 		B5A6AA021AAF7C7E002EA50B /* Pages WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B5A6AA011AAF7C7E002EA50B /* Pages WatchKit App.app */; };
 		B5A6AA0A1AAF7C7E002EA50B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A6AA081AAF7C7E002EA50B /* Interface.storyboard */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B54F24E61AAF92A4004CD7E9 /* MainInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
 		B5A6A9CE1AAF7C73002EA50B /* Pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A6A9D21AAF7C73002EA50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5A6A9D31AAF7C73002EA50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +74,7 @@
 		B5A6A9E91AAF7C73002EA50B /* PagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesTests.swift; sourceTree = "<group>"; };
 		B5A6A9F71AAF7C7E002EA50B /* Pages WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pages WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A6A9FA1AAF7C7E002EA50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A6A9FB1AAF7C7E002EA50B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B5A6A9FB1AAF7C7E002EA50B /* PageInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInterfaceController.swift; sourceTree = "<group>"; };
 		B5A6A9FD1AAF7C7E002EA50B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5A6AA011AAF7C7E002EA50B /* Pages WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pages WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A6AA071AAF7C7E002EA50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -168,7 +170,8 @@
 		B5A6A9F81AAF7C7E002EA50B /* Pages WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B5A6A9FB1AAF7C7E002EA50B /* InterfaceController.swift */,
+				B5A6A9FB1AAF7C7E002EA50B /* PageInterfaceController.swift */,
+				B54F24E61AAF92A4004CD7E9 /* MainInterfaceController.swift */,
 				B5A6A9FD1AAF7C7E002EA50B /* Images.xcassets */,
 				B5A6A9F91AAF7C7E002EA50B /* Supporting Files */,
 			);
@@ -379,7 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A6A9FC1AAF7C7E002EA50B /* InterfaceController.swift in Sources */,
+				B54F24E71AAF92A4004CD7E9 /* MainInterfaceController.swift in Sources */,
+				B5A6A9FC1AAF7C7E002EA50B /* PageInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,6 +641,7 @@
 				B5A6A9EF1AAF7C73002EA50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5A6A9F01AAF7C73002EA50B /* Build configuration list for PBXNativeTarget "PagesTests" */ = {
 			isa = XCConfigurationList;
@@ -645,6 +650,7 @@
 				B5A6A9F21AAF7C73002EA50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5A6AA101AAF7C7E002EA50B /* Build configuration list for PBXNativeTarget "Pages WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +659,7 @@
 				B5A6AA121AAF7C7E002EA50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5A6AA131AAF7C7E002EA50B /* Build configuration list for PBXNativeTarget "Pages WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -661,6 +668,7 @@
 				B5A6AA151AAF7C7E002EA50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

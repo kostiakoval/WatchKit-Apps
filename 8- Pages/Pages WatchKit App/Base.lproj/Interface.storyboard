@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R3i-Dk-ufa">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
@@ -8,7 +8,7 @@
         <!--1-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller identifier="1" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Pages_WatchKit_Extension">
+                <controller identifier="1" id="AgC-eL-Hgc">
                     <items>
                         <label alignment="center" text="1" textAlignment="center" id="0G1-yq-rgB">
                             <color key="textColor" red="0.67455112934112549" green="0.15692374110221863" blue="0.10914970934391022" alpha="1" colorSpace="calibratedRGB"/>
@@ -22,17 +22,25 @@
             </objects>
             <point key="canvasLocation" x="275" y="369"/>
         </scene>
-        <!--Interface Controller-->
-        <scene sceneID="bkZ-x3-Gxv">
+        <!--Main Interface Controller-->
+        <scene sceneID="qnO-yh-id2">
             <objects>
-                <controller id="HZB-NL-feS"/>
+                <controller id="R3i-Dk-ufa" customClass="MainInterfaceController" customModule="Pages_WatchKit_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Button" id="DWu-kM-Xvl">
+                            <connections>
+                                <action selector="showPages" destination="R3i-Dk-ufa" id="hC8-Xq-ZlP"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="517" y="159"/>
+            <point key="canvasLocation" x="275" y="643"/>
         </scene>
-        <!--2-->
+        <!--Interface Controller-->
         <scene sceneID="Hsj-on-YLr">
             <objects>
-                <controller identifier="2" id="SNY-N1-5WX" customClass="InterfaceController" customModule="Pages_WatchKit_Extension">
+                <controller id="SNY-N1-5WX">
                     <items>
                         <label alignment="center" verticalAlignment="center" text="2" id="xv4-Pu-Uus">
                             <color key="textColor" red="0.46620205044746399" green="0.15637357532978058" blue="0.6434749960899353" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,7 +57,7 @@
         <!--Interface Controller-->
         <scene sceneID="hVh-bV-UgC">
             <objects>
-                <controller id="MTc-Ka-hYp" customClass="InterfaceController" customModule="Pages_WatchKit_Extension">
+                <controller id="MTc-Ka-hYp">
                     <items>
                         <label alignment="center" verticalAlignment="center" text="3" id="yXx-HV-8Ep">
                             <color key="textColor" red="0.67455112934112549" green="0.15692374110221863" blue="0.10914970934391022" alpha="1" colorSpace="calibratedRGB"/>
@@ -66,7 +74,7 @@
         <!--Interface Controller-->
         <scene sceneID="nbB-bc-qUj">
             <objects>
-                <controller id="JBj-2W-y4w" customClass="InterfaceController" customModule="Pages_WatchKit_Extension">
+                <controller id="JBj-2W-y4w">
                     <items>
                         <label alignment="center" verticalAlignment="center" text="4" id="dKX-LN-Siw">
                             <color key="textColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,6 +84,23 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="921" y="369"/>
+        </scene>
+        <!--page-->
+        <scene sceneID="Wgc-F5-CNh">
+            <objects>
+                <controller identifier="page" id="dMe-D2-8Km" customClass="PageInterfaceController" customModule="Pages_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="1" id="0oQ-Ht-om3">
+                            <color key="textColor" red="0.15410047769999999" green="0.41306763889999998" blue="0.69063264130000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="100"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="pageNumber" destination="0oQ-Ht-om3" id="aWc-6K-FTW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="463" y="643"/>
         </scene>
     </scenes>
 </document>
