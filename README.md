@@ -83,7 +83,6 @@ In that project you setup pages both in Code and pure UI
   
 
 # Ideas!  
----
 
 Have an idea for the Watch App?  
 Do you want it to be open-sourced here?  
