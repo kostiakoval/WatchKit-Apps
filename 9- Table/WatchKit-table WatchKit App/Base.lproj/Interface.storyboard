@@ -15,12 +15,7 @@
                                 <tableRow identifier="Row" id="bik-DY-nRY" customClass="TableRow" customModule="WatchKit_table_WatchKit_Extension">
                                     <group key="rootItem" width="1" alignment="left" spacing="10" id="a4c-U1-tyn">
                                         <items>
-                                            <group alignment="left" verticalAlignment="center" spacing="0.0" id="Zte-Kh-rpC">
-                                                <items>
-                                                    <imageView alignment="left" verticalAlignment="center" image="apple58" id="SPB-jJ-sBO"/>
-                                                </items>
-                                                <color key="backgroundColor" red="0.9767052531" green="0.60546392199999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            </group>
+                                            <imageView alignment="left" verticalAlignment="center" image="apple58" id="SPB-jJ-sBO"/>
                                             <label alignment="left" verticalAlignment="center" text="Label" id="PPf-Gf-oA1"/>
                                         </items>
                                         <color key="backgroundColor" red="0.23018704354763031" green="0.77713233232498169" blue="0.3158949613571167" alpha="1" colorSpace="calibratedRGB"/>

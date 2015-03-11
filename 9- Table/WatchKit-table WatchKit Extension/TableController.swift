@@ -19,9 +19,12 @@ class TableController: WKInterfaceController {
 
   @IBOutlet weak var table: WKInterfaceTable!
   let objects: [RowData] = [
-    RowData(name: "1", imageName: "apple58"),
-    RowData(name: "1", imageName: "fruit17"),
-    RowData(name: "1", imageName: "fruit30")]
+    RowData(name: "Apple", imageName: "apple58"),
+    RowData(name: "Grapes", imageName: "fruit17"),
+    RowData(name: "WaterMelon", imageName: "fruit30"),
+    RowData(name: "Apple", imageName: "apple58"),
+    RowData(name: "Grapes", imageName: "fruit17"),
+    RowData(name: "WaterMelon", imageName: "fruit30")]
 
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
