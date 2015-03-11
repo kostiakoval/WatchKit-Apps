@@ -87,7 +87,7 @@ In that project you setup pages both in Code and pure UI
 # Tools
 
 1. Apple Watch Frame - [Bezel](http://infinitapps.com/bezel/)
-2. Gif Recorder - [RecordIt](http://recordit.com)
+2. Gif Recorder - [RecordIt](http://recordit.co)
 3. Gif Resizer - [ezgif.com/resize](http://ezgif.com/resize)
 
 # Ideas!  
