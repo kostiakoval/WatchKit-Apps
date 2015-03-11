@@ -17,6 +17,7 @@ Table of Contents
   5. [Shared Core Data](#5-shared-core-data)
   6. [UI Playgrounds](#6-ui-playgrounds)
   7. [Pages](#7-pages)
+  8. [Table] (#8-table)
 
 - [Tools](#tools)
 - [Ideas!](#ideas)
@@ -83,6 +84,15 @@ Show different layout and UI elements.
 Pases is one of navitgation type on WathcKit. It's the same as you have on our phone.  
 You swipe left and right.  
 In that project you setup pages both in Code and pure UI
+
+### 8. Table
+---
+![Page](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/9-table.gif)  
+
+**Table** 
+Table is one of the most popular and important building components for iOS and WatchKit.  
+Learn how to make a simple table
+
   
 # Tools
 
