@@ -1,7 +1,9 @@
 WatchKit-Apps
 =============
 
-Videos coming soon ..., Stay tuned :)  
+You can see Videos here:  
+[Live coding!](https://www.youtube.com/playlist?list=PLVl4zOKOc8swguo5Fze1eZaHUtj3gUTkw)
+
 
 Table of Contents
 ---
