@@ -18,6 +18,7 @@ Table of Contents
   6. [UI Playgrounds](#6-ui-playgrounds)
   7. [Pages](#7-pages)
 
+- [Tools](#tools)
 - [Ideas!](#ideas)
 - [Contact](#contact)
 
@@ -83,6 +84,11 @@ Pases is one of navitgation type on WathcKit. It's the same as you have on our p
 You swipe left and right.  
 In that project you setup pages both in Code and pure UI
   
+# Tools
+
+1. Apple Watch Frame - [Bezel](http://infinitapps.com/bezel/)
+2. Gif Recorder - [RecordIt](http://recordit.com)
+3. Gif Resizer - [ezgif.com/resize](http://ezgif.com/resize)
 
 # Ideas!  
 
