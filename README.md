@@ -2,7 +2,7 @@ WatchKit-Apps
 =============
 
 App tutorial Videos:  
-[Live coding!](https://www.youtube.com/playlist?list=PLVl4zOKOc8swguo5Fze1eZaHUtj3gUTkw)
+###[Live coding!](https://www.youtube.com/playlist?list=PLVl4zOKOc8swguo5Fze1eZaHUtj3gUTkw)
 
 
 Table of Contents
@@ -98,7 +98,8 @@ Learn how to make a simple table
 
 1. Apple Watch Frame - [Bezel](http://infinitapps.com/bezel/)
 2. Gif Recorder - [RecordIt](http://recordit.co)
-3. Gif Resizer - [ezgif.com/resize](http://ezgif.com/resize)
+3. Gif Resizer - [ezgif.com/resize](http://ezgif.com/resize)   
+[Video](https://youtu.be/7UzinR_lK6U?list=PLVl4zOKOc8swguo5Fze1eZaHUtj3gUTkw)
 
 # Ideas!  
 
