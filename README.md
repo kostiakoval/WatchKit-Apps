@@ -116,3 +116,7 @@ Let's share knowledge, apps and happiness! Let's make this world a better place 
 Konstantin Koval  
 [konstantin.koval1@gmail.com](mailto:konstantin.koval1@gmail.com)  
 [@KostiaKoval](https://twitter.com/KostiaKoval)
+
+# Join us
+
+[Rocketfarm](http://www.rocketfarm.no)  - Place for amazing passionate IT professionals!
