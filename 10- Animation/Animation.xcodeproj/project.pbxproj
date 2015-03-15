@@ -14,7 +14,6 @@
 		B56783191AB61BC000CD2AEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56783171AB61BC000CD2AEC /* LaunchScreen.xib */; };
 		B56783251AB61BC000CD2AEC /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56783241AB61BC000CD2AEC /* AnimationTests.swift */; };
 		B56783381AB61BC900CD2AEC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56783371AB61BC900CD2AEC /* InterfaceController.swift */; };
-		B567833A1AB61BC900CD2AEC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56783391AB61BC900CD2AEC /* NotificationController.swift */; };
 		B567833C1AB61BC900CD2AEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B567833B1AB61BC900CD2AEC /* Images.xcassets */; };
 		B56783401AB61BC900CD2AEC /* Animation WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B567833F1AB61BC900CD2AEC /* Animation WatchKit App.app */; };
 		B56783481AB61BC900CD2AEC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56783461AB61BC900CD2AEC /* Interface.storyboard */; };
@@ -75,7 +74,6 @@
 		B56783351AB61BC900CD2AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56783361AB61BC900CD2AEC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		B56783371AB61BC900CD2AEC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		B56783391AB61BC900CD2AEC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		B567833B1AB61BC900CD2AEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B567833F1AB61BC900CD2AEC /* Animation WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56783451AB61BC900CD2AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				B56783371AB61BC900CD2AEC /* InterfaceController.swift */,
-				B56783391AB61BC900CD2AEC /* NotificationController.swift */,
 				B567833B1AB61BC900CD2AEC /* Images.xcassets */,
 				B56783341AB61BC900CD2AEC /* Supporting Files */,
 			);
@@ -356,7 +353,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56783481AB61BC900CD2AEC /* Interface.storyboard in Resources */,
-				B567834A1AB61BC900CD2AEC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B567833A1AB61BC900CD2AEC /* NotificationController.swift in Sources */,
 				B56783381AB61BC900CD2AEC /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -647,6 +642,7 @@
 				B567832A1AB61BC000CD2AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B567832B1AB61BC000CD2AEC /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +651,7 @@
 				B567832D1AB61BC000CD2AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B567834E1AB61BCA00CD2AEC /* Build configuration list for PBXNativeTarget "Animation WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +660,7 @@
 				B56783501AB61BCA00CD2AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B56783511AB61BCA00CD2AEC /* Build configuration list for PBXNativeTarget "Animation WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +669,7 @@
 				B56783531AB61BCA00CD2AEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
