@@ -1,8 +1,8 @@
 WatchKit-Apps
 =============
 
-App tutorial Videos:  
-###[Live coding!](https://www.youtube.com/playlist?list=PLVl4zOKOc8swguo5Fze1eZaHUtj3gUTkw)
+#### App tutorial Videos: [Live coding!](https://www.youtube.com/playlist?list=PLVl4zOKOc8swguo5Fze1eZaHUtj3gUTkw)   
+*Last Update:* New tutorial about tables - [8-Table](#8-table)
 
 
 Table of Contents
@@ -103,12 +103,16 @@ Learn how to make a simple table
 -- [Video Tutorial ](https://youtu.be/7UzinR_lK6U?list=PLVl4zOKOc8swguo5Fze1eZaHUtj3gUTkw)
 
 
+# Contribute
+
+Please open an issue with bugs and missing features, functionality or ideas for improvements.  
+Also you can contribute by making a Fork and sending a pull request. I would love that
+
 # Ideas!  
 
 Have an idea for the Watch App?  
 Do you want it to be open-sourced here?  
-Let's share knowledge, apps and happiness! Let's make this world a better place together!
-
+Let's share knowledge, apps and happiness! Let's make this world a better place together!  
 **Contact me!**
 
 # Contact
