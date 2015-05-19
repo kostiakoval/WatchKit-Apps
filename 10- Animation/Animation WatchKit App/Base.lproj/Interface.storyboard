@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="syU-w1-PV3">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
@@ -12,29 +12,12 @@
                     <items>
                         <imageView alignment="left" image="ball" animationDuration="1" id="wG6-pj-QFk"/>
                     </items>
-                </controller>
-            </objects>
-        </scene>
-        <!--Interface Controller-->
-        <scene sceneID="ccf-eT-A02">
-            <objects>
-                <controller id="oSG-Pg-15V">
-                    <items>
-                        <label alignment="left" text="Label" id="j0H-85-aBa"/>
-                    </items>
                     <connections>
-                        <segue destination="lr9-Ra-qtZ" kind="relationship" relationship="nextPage" id="AJb-Pf-cFM"/>
+                        <segue destination="syU-w1-PV3" kind="relationship" relationship="nextPage" id="CHD-Br-gps"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-192" y="935"/>
-        </scene>
-        <!--Interface Controller-->
-        <scene sceneID="UFu-IB-LBB">
-            <objects>
-                <controller id="lr9-Ra-qtZ"/>
-            </objects>
-            <point key="canvasLocation" x="3" y="935"/>
+            <point key="canvasLocation" x="111" y="603"/>
         </scene>
         <!--R-->
         <scene sceneID="7PU-SQ-5oT">
@@ -43,9 +26,12 @@
                     <items>
                         <label alignment="center" verticalAlignment="center" text="Center!" id="By5-Mb-nzR"/>
                     </items>
+                    <connections>
+                        <segue destination="Ukj-8z-wJ5" kind="relationship" relationship="nextPage" id="4nY-Iz-qwl"/>
+                    </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="291" y="603"/>
+            <point key="canvasLocation" x="295" y="603"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="dLR-PI-8Og">
@@ -61,7 +47,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="291" y="835"/>
+            <point key="canvasLocation" x="464" y="603"/>
         </scene>
     </scenes>
 </document>
