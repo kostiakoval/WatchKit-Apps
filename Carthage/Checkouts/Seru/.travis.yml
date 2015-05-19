@@ -1,11 +1,15 @@
 language: objective-c
-osx_image: xcode61
+osx_image: xcode611
+podfile: Example/Podfile
 
-before_install: 
+cache: cocoapods
 
 before_install:
-- git submodule update --init --recursive
+- gem install cocoapods --pre
+#- git submodule update --init --recursive
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
-- xcodebuild -project Seru/Seru.xcodeproj -scheme Seru build test | xcpretty -c; exit ${PIPESTATUS[0]}
+- set -o pipefail
+- xcodebuild test -workspace Example/SeruDemo.xcworkspace -scheme SeruDemo -sdk iphonesimulator | xcpretty -c
+- pod lib lint --quick

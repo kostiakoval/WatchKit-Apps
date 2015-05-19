@@ -15,6 +15,8 @@
 		B52881971A58093C00407EB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881941A58093C00407EB4 /* Constants.swift */; };
 		B52881981A58093C00407EB4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881951A58093C00407EB4 /* DataManager.swift */; };
 		B52881991A58093C00407EB4 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881961A58093C00407EB4 /* Record.swift */; };
+		B52BB5BD1ADE759000695412 /* Seru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B52BB5BF1ADE759E00695412 /* Seru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B53780161A665C67003538A5 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
 		B53780171A665C68003538A5 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
 		B538090D1A4B607900E3575A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B538090C1A4B607900E3575A /* AppDelegate.swift */; };
@@ -84,6 +86,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		B52BB5C01ADE759F00695412 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B52BB5BF1ADE759E00695412 /* Seru.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5597A721A659A160051F42D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,6 +104,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B5597A741A659A250051F42D /* SharedKit.framework in Embed Frameworks */,
+				B52BB5BD1ADE759000695412 /* Seru.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +473,7 @@
 				B53809301A4B60A700E3575A /* Sources */,
 				B53809311A4B60A700E3575A /* Frameworks */,
 				B53809321A4B60A700E3575A /* Resources */,
+				B52BB5C01ADE759F00695412 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -899,6 +914,8 @@
 					"$(inherited)",
 					/Users/konstantin/My_Projects/WatchKit,
 					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
+					/Users/konstantin/My_Projects/WatchKit,
+					"-/WatchKit-Apps/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Shared CoreData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -919,6 +936,8 @@
 					"$(inherited)",
 					/Users/konstantin/My_Projects/WatchKit,
 					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
+					/Users/konstantin/My_Projects/WatchKit,
+					"-/WatchKit-Apps/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Shared CoreData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1006,6 +1025,8 @@
 					"-/WatchKit-Apps/Carthage/Build/iOS",
 					/Users/konstantin/My_Projects/WatchKit,
 					"-/WatchKit-Apps/Carthage/Build/iOS",
+					/Users/konstantin/My_Projects/WatchKit,
+					"-/WatchKit-Apps/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1027,6 +1048,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"-/WatchKit-Apps/Carthage/Build/iOS",
+					/Users/konstantin/My_Projects/WatchKit,
 					"-/WatchKit-Apps/Carthage/Build/iOS",
 					/Users/konstantin/My_Projects/WatchKit,
 					"-/WatchKit-Apps/Carthage/Build/iOS",

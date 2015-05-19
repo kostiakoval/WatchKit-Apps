@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Animation_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" image="ball" animationDuration="1" id="wG6-pj-QFk"/>
+                    </items>
+                    <connections>
+                        <segue destination="syU-w1-PV3" kind="relationship" relationship="nextPage" id="CHD-Br-gps"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="111" y="603"/>
+        </scene>
+        <!--R-->
+        <scene sceneID="7PU-SQ-5oT">
+            <objects>
+                <controller backgroundImage="R" animationDuration="1" id="syU-w1-PV3">
+                    <items>
+                        <label alignment="center" verticalAlignment="center" text="Center!" id="By5-Mb-nzR"/>
+                    </items>
+                    <connections>
+                        <segue destination="Ukj-8z-wJ5" kind="relationship" relationship="nextPage" id="4nY-Iz-qwl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="295" y="603"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="dLR-PI-8Og">
+            <objects>
+                <controller id="Ukj-8z-wJ5">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" backgroundImage="Rectangle" animationDuration="1" id="7bl-Ld-mC9">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Label" id="nSE-YB-d7o"/>
+                                <imageView alignment="right" verticalAlignment="center" image="apple58" id="v61-K7-Fjc"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="464" y="603"/>
+        </scene>
+    </scenes>
+</document>
