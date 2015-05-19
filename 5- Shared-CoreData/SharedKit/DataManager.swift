@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 public class DataManager {
-  
+
   public class func loadAll(contex: NSManagedObjectContext) -> Array<Record> {
     let fetch = NSFetchRequest(entityName: "Record")
     var er: NSError? = nil
@@ -19,8 +19,9 @@ public class DataManager {
       return result
     }
     assertionFailure("Can't load Records")
+    fatalError("Erro")
   }
-  
+
   public class func insertNewRecord(context: NSManagedObjectContext) -> Record {
     let r: Record = NSEntityDescription.insertNewObjectForEntityForName("Record", inManagedObjectContext: context) as! Record
     r.timestamp = NSDate()
