@@ -34,7 +34,7 @@ class TableController: WKInterfaceController {
     // This method is called when watch view controller is about to be visible to user
     super.willActivate()
 
-    let rows = objects.map() { _ in "Row" }
+    let rows = Array(count: objects.count, repeatedValue: "Row")
     table.setRowTypes(rows)
 
     for i in 0 ..< objects.count {
