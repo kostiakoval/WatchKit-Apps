@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B50BDD211AA1FB9C00E16D0A /* Seru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */; };
-		B50BDD221AA1FB9C00E16D0A /* Sweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D71AA1E8DC00AD5931 /* Sweet.framework */; };
 		B52881781A5808AB00407EB4 /* SharedKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B52881771A5808AB00407EB4 /* SharedKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B528817E1A5808AC00407EB4 /* SharedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; };
 		B52881871A5808AC00407EB4 /* SharedKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881861A5808AC00407EB4 /* SharedKitTests.swift */; };
 		B52881971A58093C00407EB4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881941A58093C00407EB4 /* Constants.swift */; };
 		B52881981A58093C00407EB4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881951A58093C00407EB4 /* DataManager.swift */; };
 		B52881991A58093C00407EB4 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52881961A58093C00407EB4 /* Record.swift */; };
-		B52BB5BD1ADE759000695412 /* Seru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B52BB5BF1ADE759E00695412 /* Seru.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B53780161A665C67003538A5 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
 		B53780171A665C68003538A5 /* Shared CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51CB2DC1A5812A8003767F1 /* Shared CoreData.xcdatamodeld */; };
 		B538090D1A4B607900E3575A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B538090C1A4B607900E3575A /* AppDelegate.swift */; };
@@ -33,9 +29,19 @@
 		B53809481A4B60A800E3575A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53809471A4B60A800E3575A /* Images.xcassets */; };
 		B5597A731A659A250051F42D /* SharedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; };
 		B5597A741A659A250051F42D /* SharedKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B52881731A5808AB00407EB4 /* SharedKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B57997A11B0D920F0069A21A /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57997991B0D920F0069A21A /* ErrorHandler.swift */; };
+		B57997A21B0D920F0069A21A /* Seru.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979A1B0D920F0069A21A /* Seru.swift */; };
+		B57997A31B0D920F0069A21A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979B1B0D920F0069A21A /* Stack.swift */; };
+		B57997A41B0D920F0069A21A /* StackConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979C1B0D920F0069A21A /* StackConfig.swift */; };
+		B57997A51B0D920F0069A21A /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979E1B0D920F0069A21A /* AppInfo.swift */; };
+		B57997A61B0D920F0069A21A /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979F1B0D920F0069A21A /* FileHelper.swift */; };
+		B57997A71B0D92600069A21A /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57997991B0D920F0069A21A /* ErrorHandler.swift */; };
+		B57997A81B0D92600069A21A /* Seru.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979A1B0D920F0069A21A /* Seru.swift */; };
+		B57997A91B0D92600069A21A /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979B1B0D920F0069A21A /* Stack.swift */; };
+		B57997AA1B0D92600069A21A /* StackConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979C1B0D920F0069A21A /* StackConfig.swift */; };
+		B57997AB1B0D92640069A21A /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979E1B0D920F0069A21A /* AppInfo.swift */; };
+		B57997AC1B0D92640069A21A /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B579979F1B0D920F0069A21A /* FileHelper.swift */; };
 		B59710671AA1FD0E00065346 /* Shared CoreData WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B53809341A4B60A700E3575A /* Shared CoreData WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B597106C1AA1FE8600065346 /* Seru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */; };
-		B597106D1AA1FE8600065346 /* Sweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5DCF5D71AA1E8DC00AD5931 /* Sweet.framework */; };
 		B5C80D351A506C3E00390A61 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C80D341A506C3E00390A61 /* WatchKit.framework */; };
 		B5F5A5501A4FEAB000B3E057 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F5A54F1A4FEAB000B3E057 /* RowController.swift */; };
 /* End PBXBuildFile section */
@@ -92,7 +98,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B52BB5BF1ADE759E00695412 /* Seru.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,7 +109,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B5597A741A659A250051F42D /* SharedKit.framework in Embed Frameworks */,
-				B52BB5BD1ADE759000695412 /* Seru.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,9 +158,13 @@
 		B53809451A4B60A800E3575A /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		B53809471A4B60A800E3575A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B53809541A4B60B700E3575A /* Shared CoreData WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Shared CoreData WatchKit Extension.entitlements"; path = "Shared CoreData WatchKit Extension/Shared CoreData WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		B57997991B0D920F0069A21A /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		B579979A1B0D920F0069A21A /* Seru.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seru.swift; sourceTree = "<group>"; };
+		B579979B1B0D920F0069A21A /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		B579979C1B0D920F0069A21A /* StackConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackConfig.swift; sourceTree = "<group>"; };
+		B579979E1B0D920F0069A21A /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		B579979F1B0D920F0069A21A /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
 		B5C80D341A506C3E00390A61 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
-		B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Seru.framework; path = ../Carthage/Build/iOS/Seru.framework; sourceTree = "<group>"; };
-		B5DCF5D71AA1E8DC00AD5931 /* Sweet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sweet.framework; path = ../Carthage/Build/iOS/Sweet.framework; sourceTree = "<group>"; };
 		B5F5A54F1A4FEAB000B3E057 /* RowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,8 +188,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B50BDD211AA1FB9C00E16D0A /* Seru.framework in Frameworks */,
-				B50BDD221AA1FB9C00E16D0A /* Sweet.framework in Frameworks */,
 				B5597A731A659A250051F42D /* SharedKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,8 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C80D351A506C3E00390A61 /* WatchKit.framework in Frameworks */,
-				B597106C1AA1FE8600065346 /* Seru.framework in Frameworks */,
-				B597106D1AA1FE8600065346 /* Sweet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +260,7 @@
 		B53808FE1A4B607900E3575A = {
 			isa = PBXGroup;
 			children = (
-				B5DCF5D61AA1E8DC00AD5931 /* Seru.framework */,
-				B5DCF5D71AA1E8DC00AD5931 /* Sweet.framework */,
+				B57997971B0D920F0069A21A /* Seru */,
 				B538092E1A4B608600E3575A /* iOS */,
 				B53809531A4B60AE00E3575A /* Watch */,
 				B52881931A58091C00407EB4 /* Kit */,
@@ -375,6 +378,27 @@
 			name = Watch;
 			sourceTree = "<group>";
 		};
+		B57997971B0D920F0069A21A /* Seru */ = {
+			isa = PBXGroup;
+			children = (
+				B57997991B0D920F0069A21A /* ErrorHandler.swift */,
+				B579979A1B0D920F0069A21A /* Seru.swift */,
+				B579979B1B0D920F0069A21A /* Stack.swift */,
+				B579979C1B0D920F0069A21A /* StackConfig.swift */,
+				B579979D1B0D920F0069A21A /* Sweet */,
+			);
+			path = Seru;
+			sourceTree = "<group>";
+		};
+		B579979D1B0D920F0069A21A /* Sweet */ = {
+			isa = PBXGroup;
+			children = (
+				B579979E1B0D920F0069A21A /* AppInfo.swift */,
+				B579979F1B0D920F0069A21A /* FileHelper.swift */,
+			);
+			path = Sweet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -434,7 +458,6 @@
 				B53809041A4B607900E3575A /* Frameworks */,
 				B53809051A4B607900E3575A /* Resources */,
 				B5597A721A659A160051F42D /* Embed Frameworks */,
-				B5DCF5DA1AA1E8FA00AD5931 /* Cathage */,
 				B597106A1AA1FD0F00065346 /* Embed App Extensions */,
 			);
 			buildRules = (
@@ -620,25 +643,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		B5DCF5DA1AA1E8FA00AD5931 /* Cathage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/iOS/Seru.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/Sweet.framework",
-			);
-			name = Cathage;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		B528816E1A5808AB00407EB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -662,10 +666,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57997A41B0D920F0069A21A /* StackConfig.swift in Sources */,
 				B53809111A4B607900E3575A /* DetailViewController.swift in Sources */,
 				B538090F1A4B607900E3575A /* MasterViewController.swift in Sources */,
+				B57997A31B0D920F0069A21A /* Stack.swift in Sources */,
+				B57997A11B0D920F0069A21A /* ErrorHandler.swift in Sources */,
 				B53780161A665C67003538A5 /* Shared CoreData.xcdatamodeld in Sources */,
+				B57997A21B0D920F0069A21A /* Seru.swift in Sources */,
 				B538090D1A4B607900E3575A /* AppDelegate.swift in Sources */,
+				B57997A51B0D920F0069A21A /* AppInfo.swift in Sources */,
+				B57997A61B0D920F0069A21A /* FileHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,7 +692,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5F5A5501A4FEAB000B3E057 /* RowController.swift in Sources */,
+				B57997A71B0D92600069A21A /* ErrorHandler.swift in Sources */,
+				B57997A81B0D92600069A21A /* Seru.swift in Sources */,
 				B53809391A4B60A800E3575A /* InterfaceController.swift in Sources */,
+				B57997AA1B0D92600069A21A /* StackConfig.swift in Sources */,
+				B57997AC1B0D92640069A21A /* FileHelper.swift in Sources */,
+				B57997AB1B0D92640069A21A /* AppInfo.swift in Sources */,
+				B57997A91B0D92600069A21A /* Stack.swift in Sources */,
 				B53780171A665C68003538A5 /* Shared CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -910,13 +926,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/konstantin/My_Projects/WatchKit,
-					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
-					/Users/konstantin/My_Projects/WatchKit,
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Shared CoreData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -932,13 +942,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/konstantin/My_Projects/WatchKit,
-					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
-					/Users/konstantin/My_Projects/WatchKit,
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Shared CoreData/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1020,14 +1024,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shared CoreData WatchKit Extension/Shared CoreData WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-					/Users/konstantin/My_Projects/WatchKit,
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-					/Users/konstantin/My_Projects/WatchKit,
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1046,14 +1043,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shared CoreData WatchKit Extension/Shared CoreData WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-					/Users/konstantin/My_Projects/WatchKit,
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-					/Users/konstantin/My_Projects/WatchKit,
-					"-/WatchKit-Apps/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Shared CoreData WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";

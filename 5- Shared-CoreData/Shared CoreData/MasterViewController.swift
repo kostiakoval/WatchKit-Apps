@@ -8,21 +8,20 @@
 
 import UIKit
 import CoreData
-import Seru
 import SharedKit
 
 class MasterViewController: UITableViewController {
 
-  var stack: PersistenceLayer!
+  var stack: Seru!
   var objects: [Record]!
-  
+
   override func awakeFromNib() {
     super.awakeFromNib()
   }
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    objects = DataManager.loadAll(self.stack.mainMOC)
+    objects = DataManager.loadAll(self.stack.stack.mainMOC)
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem()
 
@@ -36,12 +35,12 @@ class MasterViewController: UITableViewController {
   }
 
   func insertNewObject(sender: AnyObject) {
-    let r = DataManager.insertNewRecord(stack.mainMOC)
+    let r = DataManager.insertNewRecord(stack.stack.mainMOC)
     stack.persist()
     objects.insert(r, atIndex: 0)
     let indexPath = NSIndexPath(forRow: 0, inSection: 0)
     self.tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
-    
+
   }
 
   // MARK: - Segues
@@ -81,7 +80,7 @@ class MasterViewController: UITableViewController {
   override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
     if editingStyle == .Delete {
       let object = objects[indexPath.row]
-      stack.mainMOC.deleteObject(object)
+      stack.stack.mainMOC.deleteObject(object)
       objects.removeAtIndex(indexPath.row)
         tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
     } else if editingStyle == .Insert {
