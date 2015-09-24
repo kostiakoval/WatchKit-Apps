@@ -8,16 +8,16 @@
 
 import Foundation
 
-let counterKey = "counter"
+private let counterKey = "counter"
 struct Counter {
   
-  private (set) var count: Int = 0
+  private (set) var count = 0
   mutating func increase() {
     count += 1
   }
   
   func save() {
-    var defaults = NSUserDefaults.standardUserDefaults()
+    let defaults = NSUserDefaults.standardUserDefaults()
     defaults.setInteger(count, forKey: counterKey)
   }
   
@@ -29,5 +29,4 @@ struct Counter {
     count = 0
     save()
   }
-  
 }
