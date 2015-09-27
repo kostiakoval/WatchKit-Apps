@@ -48,7 +48,7 @@ Project also demonstrate how to share common code
 
 ![AppsCommunication](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/Commication.gif)
 
-**AppsCommunication** - Launching iOS app from watch
+**AppsCommunication** - Communicating between a watch app and a iOS app.
 
 ### 4. Time Color
 ---
