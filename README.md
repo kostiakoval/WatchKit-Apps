@@ -40,7 +40,7 @@ how to use NSUserDefaults to save data
 ![Data Sharing](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/iphone-DataSharing.png)
 
 **Data Sharing** - Sharing data between iOS app and watch app.  
-Table based UI fir both iOS and watch.  
+Table based UI for both iOS and watch.  
 Project also demonstrate how to share common code  
 
 ### 3. Apps Communication
