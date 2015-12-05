@@ -19,7 +19,7 @@ class ItemsViewController: UITableViewController {
   
   @IBAction func createItem(sender: UITextField) {
 
-    viewModel.append(sender.text)
+    viewModel.append(sender.text!)
     sender.text = nil
     tableView.reloadData()
   }
@@ -31,7 +31,7 @@ class ItemsViewController: UITableViewController {
   //  MARK: TableView
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
   {
-    var cell = tableView.dequeueReusableCellWithIdentifier("ItemCell", forIndexPath: indexPath) as! UITableViewCell
+    let cell = tableView.dequeueReusableCellWithIdentifier("ItemCell", forIndexPath: indexPath) 
     cell.textLabel?.text = viewModel.items[indexPath.row]
     return cell
   }

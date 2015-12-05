@@ -28,7 +28,7 @@ struct ItemsViewModel {
   
   func save(items: [String]) {
     defaults?.setObject(items, forKey: itemsKey)
-    println(defaults?.synchronize())
+    print(defaults?.synchronize())
   }
   func load() -> [String] {
     return defaults?.objectForKey(itemsKey) as? [String] ?? []
