@@ -17,13 +17,13 @@ class ButtonsInterfaceController: WKInterfaceController {
   @IBOutlet weak var button3: WKInterfaceButton!
   
   @IBAction func action1() {
-    println("Action 1")
+    print("Action 1")
   }
   @IBAction func action2() {
-    println("Action 2")
+    print("Action 2")
   }
   @ IBAction func action3() {
-    println("Action 3")
+    print("Action 3")
   }
   
   override func awakeWithContext(context: AnyObject?) {

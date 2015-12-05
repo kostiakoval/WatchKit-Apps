@@ -12,52 +12,55 @@
 		B59BDD891A3C218100DE7166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59BDD871A3C218100DE7166 /* Main.storyboard */; };
 		B59BDD8B1A3C218100DE7166 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59BDD8A1A3C218100DE7166 /* Images.xcassets */; };
 		B59BDD8E1A3C218100DE7166 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59BDD8C1A3C218100DE7166 /* LaunchScreen.xib */; };
-		B59BDD9A1A3C218100DE7166 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BDD991A3C218100DE7166 /* CounterTests.swift */; };
 		B59BDDAD1A3C218B00DE7166 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BDDAC1A3C218B00DE7166 /* InterfaceController.swift */; };
 		B59BDDAF1A3C218B00DE7166 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BDDAE1A3C218B00DE7166 /* NotificationController.swift */; };
 		B59BDDB11A3C218B00DE7166 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BDDB01A3C218B00DE7166 /* GlanceController.swift */; };
 		B59BDDB31A3C218B00DE7166 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59BDDB21A3C218B00DE7166 /* Images.xcassets */; };
-		B59BDDB71A3C218C00DE7166 /* Counter WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B59BDDB61A3C218C00DE7166 /* Counter WatchKit App.app */; };
 		B59BDDBE1A3C218C00DE7166 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59BDDBD1A3C218C00DE7166 /* Interface.storyboard */; };
 		B59BDDC01A3C218C00DE7166 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59BDDBF1A3C218C00DE7166 /* Images.xcassets */; };
-		B59BDDC31A3C218C00DE7166 /* Counter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B59BDDA71A3C218B00DE7166 /* Counter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B59BDDCE1A3CBB6500DE7166 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BDDCD1A3CBB6500DE7166 /* Counter.swift */; };
+		B5ACAFF61BB43566007E21E4 /* Counter WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B59BDDA71A3C218B00DE7166 /* Counter WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5ACAFF91BB43566007E21E4 /* Counter WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B59BDDB61A3C218C00DE7166 /* Counter WatchKit App.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B59BDD941A3C218100DE7166 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B59BDD761A3C218100DE7166 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B59BDD7D1A3C218100DE7166;
-			remoteInfo = Counter;
-		};
-		B59BDDB81A3C218C00DE7166 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B59BDD761A3C218100DE7166 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B59BDDB51A3C218C00DE7166;
-			remoteInfo = "Counter WatchKit App";
-		};
-		B59BDDC11A3C218C00DE7166 /* PBXContainerItemProxy */ = {
+		B5ACAFF41BB43566007E21E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B59BDD761A3C218100DE7166 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B59BDDA61A3C218B00DE7166;
 			remoteInfo = "Counter WatchKit Extension";
 		};
+		B5ACAFF71BB43566007E21E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59BDD761A3C218100DE7166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59BDDB51A3C218C00DE7166;
+			remoteInfo = "Counter WatchKit App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B59BDDCA1A3C218C00DE7166 /* Embed App Extensions */ = {
+		B5ACAFFA1BB43566007E21E4 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				B59BDDC31A3C218C00DE7166 /* Counter WatchKit Extension.appex in Embed App Extensions */,
+				B5ACAFF61BB43566007E21E4 /* Counter WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ACAFFB1BB43566007E21E4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B5ACAFF91BB43566007E21E4 /* Counter WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -70,9 +73,6 @@
 		B59BDD881A3C218100DE7166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B59BDD8A1A3C218100DE7166 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B59BDD8D1A3C218100DE7166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B59BDD931A3C218100DE7166 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B59BDD981A3C218100DE7166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B59BDD991A3C218100DE7166 /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
 		B59BDDA71A3C218B00DE7166 /* Counter WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Counter WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59BDDAA1A3C218B00DE7166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B59BDDAB1A3C218B00DE7166 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -95,13 +95,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B59BDD901A3C218100DE7166 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B59BDDA41A3C218B00DE7166 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				B59BDD801A3C218100DE7166 /* Counter */,
-				B59BDD961A3C218100DE7166 /* CounterTests */,
 				B59BDDA81A3C218B00DE7166 /* Counter WatchKit Extension */,
 				B59BDDBA1A3C218C00DE7166 /* Counter WatchKit App */,
 				B59BDD7F1A3C218100DE7166 /* Products */,
@@ -127,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				B59BDD7E1A3C218100DE7166 /* Counter.app */,
-				B59BDD931A3C218100DE7166 /* CounterTests.xctest */,
 				B59BDDA71A3C218B00DE7166 /* Counter WatchKit Extension.appex */,
 				B59BDDB61A3C218C00DE7166 /* Counter WatchKit App.app */,
 			);
@@ -151,23 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				B59BDD821A3C218100DE7166 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B59BDD961A3C218100DE7166 /* CounterTests */ = {
-			isa = PBXGroup;
-			children = (
-				B59BDD991A3C218100DE7166 /* CounterTests.swift */,
-				B59BDD971A3C218100DE7166 /* Supporting Files */,
-			);
-			path = CounterTests;
-			sourceTree = "<group>";
-		};
-		B59BDD971A3C218100DE7166 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B59BDD981A3C218100DE7166 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,35 +204,17 @@
 				B59BDD7A1A3C218100DE7166 /* Sources */,
 				B59BDD7B1A3C218100DE7166 /* Frameworks */,
 				B59BDD7C1A3C218100DE7166 /* Resources */,
-				B59BDDCA1A3C218C00DE7166 /* Embed App Extensions */,
+				B5ACAFFB1BB43566007E21E4 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B59BDDC21A3C218C00DE7166 /* PBXTargetDependency */,
+				B5ACAFF81BB43566007E21E4 /* PBXTargetDependency */,
 			);
 			name = Counter;
 			productName = Counter;
 			productReference = B59BDD7E1A3C218100DE7166 /* Counter.app */;
 			productType = "com.apple.product-type.application";
-		};
-		B59BDD921A3C218100DE7166 /* CounterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B59BDDA01A3C218100DE7166 /* Build configuration list for PBXNativeTarget "CounterTests" */;
-			buildPhases = (
-				B59BDD8F1A3C218100DE7166 /* Sources */,
-				B59BDD901A3C218100DE7166 /* Frameworks */,
-				B59BDD911A3C218100DE7166 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B59BDD951A3C218100DE7166 /* PBXTargetDependency */,
-			);
-			name = CounterTests;
-			productName = CounterTests;
-			productReference = B59BDD931A3C218100DE7166 /* CounterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B59BDDA61A3C218B00DE7166 /* Counter WatchKit Extension */ = {
 			isa = PBXNativeTarget;
@@ -271,27 +227,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				B59BDDB91A3C218C00DE7166 /* PBXTargetDependency */,
 			);
 			name = "Counter WatchKit Extension";
 			productName = "Counter WatchKit Extension";
 			productReference = B59BDDA71A3C218B00DE7166 /* Counter WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit-extension";
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 		B59BDDB51A3C218C00DE7166 /* Counter WatchKit App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B59BDDC41A3C218C00DE7166 /* Build configuration list for PBXNativeTarget "Counter WatchKit App" */;
 			buildPhases = (
 				B59BDDB41A3C218C00DE7166 /* Resources */,
+				B5ACAFFA1BB43566007E21E4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B5ACAFF51BB43566007E21E4 /* PBXTargetDependency */,
 			);
 			name = "Counter WatchKit App";
 			productName = "Counter WatchKit App";
 			productReference = B59BDDB61A3C218C00DE7166 /* Counter WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp";
+			productType = "com.apple.product-type.application.watchapp2";
 		};
 /* End PBXNativeTarget section */
 
@@ -299,15 +256,13 @@
 		B59BDD761A3C218100DE7166 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Konstantin Koval";
 				TargetAttributes = {
 					B59BDD7D1A3C218100DE7166 = {
 						CreatedOnToolsVersion = 6.2;
-					};
-					B59BDD921A3C218100DE7166 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = B59BDD7D1A3C218100DE7166;
 					};
 					B59BDDA61A3C218B00DE7166 = {
 						CreatedOnToolsVersion = 6.2;
@@ -331,7 +286,6 @@
 			projectRoot = "";
 			targets = (
 				B59BDD7D1A3C218100DE7166 /* Counter */,
-				B59BDD921A3C218100DE7166 /* CounterTests */,
 				B59BDDA61A3C218B00DE7166 /* Counter WatchKit Extension */,
 				B59BDDB51A3C218C00DE7166 /* Counter WatchKit App */,
 			);
@@ -349,19 +303,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B59BDD911A3C218100DE7166 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B59BDDA51A3C218B00DE7166 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B59BDDB31A3C218B00DE7166 /* Images.xcassets in Resources */,
-				B59BDDB71A3C218C00DE7166 /* Counter WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,14 +332,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B59BDD8F1A3C218100DE7166 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B59BDD9A1A3C218100DE7166 /* CounterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B59BDDA31A3C218B00DE7166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -408,20 +346,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B59BDD951A3C218100DE7166 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B59BDD7D1A3C218100DE7166 /* Counter */;
-			targetProxy = B59BDD941A3C218100DE7166 /* PBXContainerItemProxy */;
-		};
-		B59BDDB91A3C218C00DE7166 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B59BDDB51A3C218C00DE7166 /* Counter WatchKit App */;
-			targetProxy = B59BDDB81A3C218C00DE7166 /* PBXContainerItemProxy */;
-		};
-		B59BDDC21A3C218C00DE7166 /* PBXTargetDependency */ = {
+		B5ACAFF51BB43566007E21E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B59BDDA61A3C218B00DE7166 /* Counter WatchKit Extension */;
-			targetProxy = B59BDDC11A3C218C00DE7166 /* PBXContainerItemProxy */;
+			targetProxy = B5ACAFF41BB43566007E21E4 /* PBXContainerItemProxy */;
+		};
+		B5ACAFF81BB43566007E21E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59BDDB51A3C218C00DE7166 /* Counter WatchKit App */;
+			targetProxy = B5ACAFF71BB43566007E21E4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,6 +398,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -529,6 +463,7 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kkoval.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -540,41 +475,8 @@
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kkoval.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		B59BDDA11A3C218100DE7166 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CounterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counter.app/Counter";
-			};
-			name = Debug;
-		};
-		B59BDDA21A3C218100DE7166 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CounterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counter.app/Counter";
 			};
 			name = Release;
 		};
@@ -583,16 +485,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				IBSC_MODULE = Counter_WatchKit_Extension;
 				INFOPLIST_FILE = "Counter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = kkoval.Counter.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -601,12 +506,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Counter_WatchKit_Extension;
 				INFOPLIST_FILE = "Counter WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = kkoval.Counter.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -619,8 +527,12 @@
 				);
 				INFOPLIST_FILE = "Counter WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkoval.Counter.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -629,8 +541,12 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Counter WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkoval.Counter.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -651,15 +567,6 @@
 			buildConfigurations = (
 				B59BDD9E1A3C218100DE7166 /* Debug */,
 				B59BDD9F1A3C218100DE7166 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B59BDDA01A3C218100DE7166 /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B59BDDA11A3C218100DE7166 /* Debug */,
-				B59BDDA21A3C218100DE7166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

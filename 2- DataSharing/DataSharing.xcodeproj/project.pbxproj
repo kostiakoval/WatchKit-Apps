@@ -296,6 +296,8 @@
 		B5A4CC061A3EC68200F5B928 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Konstantin Koval";
 				TargetAttributes = {
