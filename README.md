@@ -81,7 +81,7 @@ Show different layout and UI elements.
 ![Page](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/Pages.gif)  
 
 **Pages**  
-Pases is one of navitgation type on WathcKit. It's the same as you have on our phone.  
+Pases is one of navitgation type on WatchKit. It's the same as you have on our phone.  
 You swipe left and right.  
 In that project you setup pages both in Code and pure UI
 
