@@ -66,7 +66,7 @@ iPhone and WatchKit apps with shared CoreData database. Projects show how to set
 
 **Know Issues:**  
 `- Could not build Objective-C module ... ` 
-Select the framework target that couldn't be build and build it. The project dependencies are not build in correct order :(
+Select the framework target that couldn't be build and build it. The project dependencies are not build in correct order :cry:
 
 
 ### 6. UI Playgrounds
@@ -81,16 +81,16 @@ Show different layout and UI elements.
 ![Page](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/Pages.gif)  
 
 **Pages**  
-Pases is one of navitgation type on WatchKit. It's the same as you have on our phone.  
+Pages is one of navigation types on WatchKit. It's the same as you have on our phone.  
 You swipe left and right.  
 In that project you setup pages both in Code and pure UI
 
 ### 8. Table
 ---
-![Page](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/9-table.gif)  
+![Table](https://raw.githubusercontent.com/kostiakoval/WatchKit-Apps/master/images/AppsInWatck/9-table.gif)  
 
 **Table** 
-Table is one of the most popular and important building components for iOS and WatchKit.  
+Tables are one of the most popular and important building components for iOS and WatchKit.  
 Learn how to make a simple table
 
   
